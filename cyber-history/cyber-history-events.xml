@@ -1,0 +1,2394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cyberHistory version="1.0">
+  <metadata>
+    <title>Longo.org Cyber History Calendar</title>
+    <description>Canonical source dataset for the Longo.org Cyber History Calendar.</description>
+    <generatedOn>2026-09-26</generatedOn>
+    <eventCount>133</eventCount>
+  </metadata>
+  <categoryLegend>
+    <category id="malware">
+      <label>Malware / Worm / Ransomware</label>
+      <icon>bug</icon>
+      <color>#DC2626</color>
+    </category>
+    <category id="incident">
+      <label>Breach / Security Incident</label>
+      <icon>shield-exclamation</icon>
+      <color>#EA580C</color>
+    </category>
+    <category id="vulnerability">
+      <label>Vulnerability / CVE</label>
+      <icon>triangle-exclamation</icon>
+      <color>#2563EB</color>
+    </category>
+    <category id="nation_state">
+      <label>Nation-State / Espionage</label>
+      <icon>crosshairs</icon>
+      <color>#7C3AED</color>
+    </category>
+    <category id="supply_chain">
+      <label>Supply Chain / Third Party</label>
+      <icon>link</icon>
+      <color>#0F766E</color>
+    </category>
+    <category id="governance">
+      <label>Regulation / Governance / Policy</label>
+      <icon>scale-balanced</icon>
+      <color>#B7791F</color>
+    </category>
+    <category id="critical_infrastructure">
+      <label>Critical Infrastructure / ICS</label>
+      <icon>industry</icon>
+      <color>#0E7490</color>
+    </category>
+    <category id="identity">
+      <label>Identity / Authentication / PKI</label>
+      <icon>key</icon>
+      <color>#4F46E5</color>
+    </category>
+    <category id="internet">
+      <label>Internet / Infrastructure</label>
+      <icon>globe</icon>
+      <color>#0369A1</color>
+    </category>
+    <category id="milestone">
+      <label>Security Milestone / Foundational Event</label>
+      <icon>star</icon>
+      <color>#15803D</color>
+    </category>
+  </categoryLegend>
+  <events>
+    <event id="CH-000001">
+      <date precision="day">1983-11-10</date>
+      <title>Fred Cohen virus demonstration</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>Fred Cohen demonstrated self-replicating code during academic security research, helping formalize the modern computer-virus concept.</summary>
+      <whyItStillMatters>It helped turn malicious self-replication into a defined computer-security problem.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Fred_Cohen</source>
+      </sources>
+    </event>
+    <event id="CH-000002">
+      <date precision="month">1986-01</date>
+      <title>Brain boot-sector virus</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Brain spread through infected floppy-disk boot sectors and is widely cited as the first IBM PC-compatible virus to circulate broadly.</summary>
+      <whyItStillMatters>It marks malware's transition from research curiosity to something that could spread through ordinary computer use.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Brain_(computer_virus)</source>
+      </sources>
+    </event>
+    <event id="CH-000003">
+      <date precision="day">1988-11-02</date>
+      <title>Morris Worm</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>The Morris Worm spread rapidly across the early Internet, exploiting multiple weaknesses and affecting thousands of systems.</summary>
+      <whyItStillMatters>It became a foundational Internet security incident and helped drive organized incident-response capability.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.fbi.gov/history/famous-cases/morris-worm</source>
+        <source type="background">https://en.wikipedia.org/wiki/Morris_worm</source>
+      </sources>
+    </event>
+    <event id="CH-000004">
+      <date precision="day">1988-11-17</date>
+      <title>CERT Coordination Center established</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>DARPA funded creation of the CERT Coordination Center at Carnegie Mellon after the Morris Worm.</summary>
+      <whyItStillMatters>Modern incident coordination and vulnerability-response practices trace directly to needs exposed by early Internet-wide incidents.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sei.cmu.edu/about/divisions/cert/index.cfm</source>
+        <source type="background">https://en.wikipedia.org/wiki/CERT_Coordination_Center</source>
+      </sources>
+    </event>
+    <event id="CH-000005">
+      <date precision="month">1989-12</date>
+      <title>AIDS Trojan / PC Cyborg</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>The AIDS Trojan was distributed on floppy disks, hid directories, encrypted filenames, and demanded payment by postal mail.</summary>
+      <whyItStillMatters>Often cited as the first ransomware, it proves the extortion model predates cryptocurrency by decades.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.watchguard.com/wgrd-security-hub/ransomware-tracker/aids-trojan</source>
+        <source type="background">https://en.wikipedia.org/wiki/PC_Cyborg</source>
+      </sources>
+    </event>
+    <event id="CH-000006">
+      <date precision="month">1990-06</date>
+      <title>UK Computer Misuse Act</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>The United Kingdom enacted the Computer Misuse Act, creating criminal offenses for unauthorized access and related computer misuse.</summary>
+      <whyItStillMatters>It became a foundational cybercrime statute and still shapes debates over authorization and security research.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Computer_Misuse_Act_1990</source>
+      </sources>
+    </event>
+    <event id="CH-000007">
+      <date precision="month">1993-07</date>
+      <title>First DEF CON</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>The first DEF CON brought hackers, researchers, and security practitioners together in Las Vegas.</summary>
+      <whyItStillMatters>DEF CON became one of the most influential forums for practical security research and hacker culture.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/DEF_CON</source>
+      </sources>
+    </event>
+    <event id="CH-000008">
+      <date precision="month">1995-02</date>
+      <title>SSL 2.0 era begins</title>
+      <primaryCategory>internet</primaryCategory>
+      <summary>Netscape introduced SSL to protect web communications and support secure commercial use of the Internet.</summary>
+      <whyItStillMatters>Encrypted web transport became a basic expectation for online trust, despite weaknesses in early versions.</whyItStillMatters>
+      <rendering>
+        <icon>globe</icon>
+        <color>#0369A1</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Transport_Layer_Security</source>
+      </sources>
+    </event>
+    <event id="CH-000009">
+      <date precision="day">1998-08-03</date>
+      <title>Back Orifice released</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Cult of the Dead Cow released Back Orifice, a remote-administration tool that could covertly control Windows systems.</summary>
+      <whyItStillMatters>It popularized the concept of remote-access trojans and abuse of legitimate administration functions.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Back_Orifice</source>
+      </sources>
+    </event>
+    <event id="CH-000010">
+      <date precision="day">1999-03-26</date>
+      <title>Melissa</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Melissa spread through infected Word documents and Outlook address books, disrupting enterprise mail systems.</summary>
+      <whyItStillMatters>Attackers still win by abusing trust, familiar file formats, and legitimate communication channels.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.fbi.gov/news/stories/melissa-virus-20th-anniversary-032519</source>
+        <source type="background">https://en.wikipedia.org/wiki/Melissa_(computer_virus)</source>
+      </sources>
+    </event>
+    <event id="CH-000011">
+      <date precision="day">1999-04-26</date>
+      <title>CIH / Chernobyl virus</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>CIH overwrote hard-drive data and, on some systems, flash BIOS content when it activated.</summary>
+      <whyItStillMatters>It is an early example of malware designed for destructive impact beyond nuisance or propagation.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sei.cmu.edu/documents/520/1999_019_001_496442.pdf</source>
+        <source type="background">https://en.wikipedia.org/wiki/CIH_(computer_virus)</source>
+      </sources>
+    </event>
+    <event id="CH-000012">
+      <date precision="month">1999-09</date>
+      <title>CVE initiative launched</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>MITRE launched Common Vulnerabilities and Exposures to give publicly known vulnerabilities standardized identifiers.</summary>
+      <whyItStillMatters>CVE created a shared language for vulnerability management across vendors, scanners, advisories, and defenders.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cve.org/About/History</source>
+        <source type="background">https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures</source>
+      </sources>
+    </event>
+    <event id="CH-000013">
+      <date precision="month">2000-02</date>
+      <title>Major Internet DDoS attacks</title>
+      <primaryCategory>internet</primaryCategory>
+      <summary>Distributed denial-of-service attacks disrupted major Internet properties including Yahoo, Amazon, CNN, and eBay.</summary>
+      <whyItStillMatters>They demonstrated that even major online services could be overwhelmed through coordinated abuse of compromised systems.</whyItStillMatters>
+      <rendering>
+        <icon>globe</icon>
+        <color>#0369A1</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/MafiaBoy</source>
+      </sources>
+    </event>
+    <event id="CH-000014">
+      <date precision="day">2000-05-04</date>
+      <title>ILOVEYOU / Love Letter worm</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>The Love Letter worm spread through a malicious Visual Basic Script attachment and automated forwarding.</summary>
+      <whyItStillMatters>It combined human psychology with automated propagation, a pattern still visible in modern phishing and malware delivery.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sei.cmu.edu/documents/507/2000_019_001_496188.pdf</source>
+        <source type="background">https://en.wikipedia.org/wiki/ILOVEYOU</source>
+      </sources>
+    </event>
+    <event id="CH-000015">
+      <date precision="day">2001-02-12</date>
+      <title>Anna Kournikova worm</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>A social-engineering worm disguised as an image of tennis player Anna Kournikova spread widely through email.</summary>
+      <whyItStillMatters>Compelling lures and trusted communication channels remain durable malware-delivery techniques.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Anna_Kournikova_(computer_virus)</source>
+      </sources>
+    </event>
+    <event id="CH-000016">
+      <date precision="day">2001-07-19</date>
+      <title>Code Red</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Code Red exploited a vulnerability in Microsoft IIS and infected hundreds of thousands of Internet-facing systems.</summary>
+      <whyItStillMatters>Self-propagating attacks against exposed infrastructure can move faster than human remediation processes.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://news.microsoft.com/source/2001/07/30/government-and-industry-groups-warn-code-red-internet-worm-ready-for-serious-strike-urge-preventative-measures/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Code_Red_(computer_worm)</source>
+      </sources>
+    </event>
+    <event id="CH-000017">
+      <date precision="day">2001-09-18</date>
+      <title>Nimda</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Nimda spread through email, network shares, compromised websites, vulnerable IIS servers, and earlier backdoors.</summary>
+      <whyItStillMatters>It demonstrated the danger of combining multiple propagation vectors into one campaign.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://seclists.org/cert/2001/22</source>
+        <source type="background">https://en.wikipedia.org/wiki/Nimda</source>
+      </sources>
+    </event>
+    <event id="CH-000018">
+      <date precision="month">2002-04</date>
+      <title>Klez worm surge</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Klez became a widespread email worm, spoofing sender addresses and distributing infected attachments.</summary>
+      <whyItStillMatters>Sender spoofing and trusted-channel abuse remain basic ingredients of modern social engineering.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Klez</source>
+      </sources>
+    </event>
+    <event id="CH-000019">
+      <date precision="day">2003-01-25</date>
+      <title>SQL Slammer</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Slammer exploited a previously patched SQL Server flaw and caused a dramatic global traffic spike.</summary>
+      <whyItStillMatters>It remains a classic example of how quickly a worm can weaponize a known vulnerability when patching lags.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://news.microsoft.com/source/2003/01/25/microsoft-statement-on-the-slammer-worm-attack/</source>
+        <source type="background">https://en.wikipedia.org/wiki/SQL_Slammer</source>
+      </sources>
+    </event>
+    <event id="CH-000020">
+      <date precision="day">2003-08-11</date>
+      <title>Blaster worm</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Blaster exploited a previously patched Windows RPC vulnerability and scanned continuously for additional vulnerable hosts.</summary>
+      <whyItStillMatters>It illustrates the persistent gap between patch availability and actual remediation.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://learn.microsoft.com/en-us/troubleshoot/windows-server/security-and-malware/blaster-worm-virus-alert</source>
+        <source type="background">https://en.wikipedia.org/wiki/Blaster_(computer_worm)</source>
+      </sources>
+    </event>
+    <event id="CH-000021">
+      <date precision="day">2003-08-18</date>
+      <title>Sobig.F</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Sobig.F spread through email at enormous scale and generated significant mail disruption.</summary>
+      <whyItStillMatters>Mass-mailing malware showed how compromised endpoints could become infrastructure for large-scale abuse.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Sobig</source>
+      </sources>
+    </event>
+    <event id="CH-000022">
+      <date precision="day">2004-01-26</date>
+      <title>Mydoom</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Mydoom spread through email and peer-to-peer networks, opened a backdoor, and launched denial-of-service activity.</summary>
+      <whyItStillMatters>Compromised endpoints quickly became infrastructure for further attacks, a pattern still seen in botnets.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Win32%2FMydoom</source>
+        <source type="background">https://en.wikipedia.org/wiki/Mydoom</source>
+      </sources>
+    </event>
+    <event id="CH-000023">
+      <date precision="day">2004-05-01</date>
+      <title>Sasser</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Sasser exploited the Windows LSASS vulnerability and could propagate without a user opening an attachment.</summary>
+      <whyItStillMatters>It reinforced the risk of rapid exploitation following vulnerability disclosure.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://news.microsoft.com/source/2004/05/02/microsoft-joins-law-enforcement-to-track-perpetrators-of-emerging-worm-attacks-against-computer-users/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Sasser_(computer_worm)</source>
+      </sources>
+    </event>
+    <event id="CH-000024">
+      <date precision="month">2004-12</date>
+      <title>PCI DSS 1.0</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>Major payment-card brands created the first Payment Card Industry Data Security Standard.</summary>
+      <whyItStillMatters>PCI DSS became one of the most influential industry security compliance baselines.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.pcisecuritystandards.org/about_us/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard</source>
+      </sources>
+    </event>
+    <event id="CH-000025">
+      <date precision="day">2005-08-14</date>
+      <title>Zotob worm</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Zotob exploited a recently disclosed Windows Plug and Play vulnerability and disrupted corporate and media networks.</summary>
+      <whyItStillMatters>It showed how quickly exploit code can follow a patch and why emergency vulnerability management matters.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Zotob</source>
+      </sources>
+    </event>
+    <event id="CH-000026">
+      <date precision="month">2006-01</date>
+      <title>WMF vulnerability crisis</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>A Windows Metafile vulnerability enabled drive-by exploitation through malicious images and triggered an out-of-cycle security update.</summary>
+      <whyItStillMatters>Content-parsing flaws can create code-execution paths through routine web browsing.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Windows_Metafile_vulnerability</source>
+      </sources>
+    </event>
+    <event id="CH-000027">
+      <date precision="day">2007-01-17</date>
+      <title>TJX breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>TJX disclosed unauthorized access affecting payment-card and customer data across its retail operations.</summary>
+      <whyItStillMatters>The breach became an early large-scale example of wireless security, card-data, and third-party risk failures.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/TJX_Companies</source>
+      </sources>
+    </event>
+    <event id="CH-000028">
+      <date precision="day">2007-04-27</date>
+      <title>Estonia cyberattacks begin</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Estonian government, banking, media, and other online services experienced sustained disruptive cyber activity amid political tensions.</summary>
+      <whyItStillMatters>The attacks became a landmark case in national cyber defense, resilience, and geopolitical cyber disruption.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2007_cyberattacks_on_Estonia</source>
+      </sources>
+    </event>
+    <event id="CH-000029">
+      <date precision="day">2008-07-08</date>
+      <title>Kaminsky DNS flaw disclosed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Dan Kaminsky disclosed a fundamental DNS cache-poisoning weakness after a coordinated multi-vendor patch effort.</summary>
+      <whyItStillMatters>The episode showed the systemic risk of flaws in core Internet infrastructure and the value of coordinated disclosure.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Dan_Kaminsky</source>
+      </sources>
+    </event>
+    <event id="CH-000030">
+      <date precision="day">2008-10-23</date>
+      <title>MS08-067 emergency patch</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Microsoft issued an out-of-band critical update for a remotely exploitable Windows Server service vulnerability.</summary>
+      <whyItStillMatters>The flaw was later exploited by Conficker and remains a classic emergency-patching case.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067</source>
+        <source type="background">https://en.wikipedia.org/wiki/MS08-067</source>
+      </sources>
+    </event>
+    <event id="CH-000031">
+      <date precision="day">2008-11-21</date>
+      <title>Conficker discovered</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Conficker exploited the Windows Server service vulnerability addressed by MS08-067 and added multiple propagation techniques.</summary>
+      <whyItStillMatters>It showed how unpatched systems, weak credentials, removable media, and shares can combine into durable malware spread.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Win32%2FConficker</source>
+        <source type="background">https://en.wikipedia.org/wiki/Conficker</source>
+      </sources>
+    </event>
+    <event id="CH-000032">
+      <date precision="month">2008-12</date>
+      <title>Heartland Payment Systems breach discovered</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Heartland discovered a major payment-card breach involving malware in transaction-processing systems.</summary>
+      <whyItStillMatters>The case became an important milestone in payment-security accountability and processor risk.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Heartland_Payment_Systems</source>
+      </sources>
+    </event>
+    <event id="CH-000033">
+      <date precision="day">2009-07-04</date>
+      <title>U.S. and South Korea DDoS attacks</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Government, financial, and media websites in the United States and South Korea were targeted by coordinated denial-of-service attacks.</summary>
+      <whyItStillMatters>The campaign reinforced the use of botnets for politically significant disruption and the difficulty of attribution.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2009_cyberattacks_against_South_Korea_and_the_United_States</source>
+      </sources>
+    </event>
+    <event id="CH-000034">
+      <date precision="day">2010-01-12</date>
+      <title>Operation Aurora disclosed</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Google disclosed a sophisticated targeted intrusion that stole intellectual property and affected numerous large companies.</summary>
+      <whyItStillMatters>Aurora was a watershed moment in public corporate disclosure of nation-state activity.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://googleblog.blogspot.com/2010/01/new-approach-to-china.html</source>
+        <source type="background">https://en.wikipedia.org/wiki/Operation_Aurora</source>
+      </sources>
+    </event>
+    <event id="CH-000035">
+      <date precision="day">2010-06-17</date>
+      <title>Stuxnet first identified</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>Security researchers identified malware later shown to target specific industrial-control environments.</summary>
+      <whyItStillMatters>Its discovery marked a turning point in awareness of cyber weapons designed to manipulate physical processes.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Stuxnet</source>
+      </sources>
+    </event>
+    <event id="CH-000036">
+      <date precision="day">2010-09-29</date>
+      <title>ICS-CERT Stuxnet advisory</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>ICS-CERT documented Stuxnet targeting Siemens industrial-control software and using multiple advanced propagation techniques.</summary>
+      <whyItStillMatters>Stuxnet permanently changed the conversation around cyber-physical risk.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/uscert/ics/advisories/ICSA-10-272-01</source>
+        <source type="background">https://en.wikipedia.org/wiki/Stuxnet</source>
+      </sources>
+    </event>
+    <event id="CH-000037">
+      <date precision="day">2011-03-17</date>
+      <title>RSA SecurID breach disclosed</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>RSA disclosed an advanced persistent threat and warned that information related to SecurID products had been extracted.</summary>
+      <whyItStillMatters>Security controls with privileged trust relationships are strategic targets in their own right.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/Archives/edgar/data/790070/000119312511070159/d8k.htm</source>
+        <source type="background">https://en.wikipedia.org/wiki/RSA_SecurID</source>
+      </sources>
+    </event>
+    <event id="CH-000038">
+      <date precision="day">2011-03-23</date>
+      <title>Comodo certificate compromise</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>A certificate-authority reseller account was compromised and used to issue fraudulent certificates for major online services.</summary>
+      <whyItStillMatters>Web trust depends on the operational security of certificate-issuance infrastructure, not cryptography alone.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Comodo_Group#Certificate_hacking</source>
+      </sources>
+    </event>
+    <event id="CH-000039">
+      <date precision="day">2011-04-26</date>
+      <title>PlayStation Network breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Sony disclosed a major compromise of PlayStation Network and Qriocity user data after taking services offline.</summary>
+      <whyItStillMatters>The incident highlighted large-scale consumer identity exposure and the operational cost of prolonged outages.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage</source>
+      </sources>
+    </event>
+    <event id="CH-000040">
+      <date precision="day">2011-08-29</date>
+      <title>DigiNotar fraudulent certificates exposed</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>Fraudulent certificates issued after compromise of DigiNotar were discovered, ultimately destroying trust in the certificate authority.</summary>
+      <whyItStillMatters>Compromise of one PKI trust anchor can create ecosystem-wide consequences.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/DigiNotar</source>
+      </sources>
+    </event>
+    <event id="CH-000041">
+      <date precision="day">2012-05-28</date>
+      <title>Flame malware revealed</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Researchers disclosed Flame, a sophisticated espionage platform used primarily in the Middle East.</summary>
+      <whyItStillMatters>Flame illustrated the growing complexity and modularity of state-aligned cyber espionage tooling.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Flame_(malware)</source>
+      </sources>
+    </event>
+    <event id="CH-000042">
+      <date precision="day">2012-06-06</date>
+      <title>LinkedIn password breach</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Millions of hashed LinkedIn passwords were posted online following a breach.</summary>
+      <whyItStillMatters>The incident reinforced the importance of strong password hashing, unique credentials, and resistance to credential reuse.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2012_LinkedIn_hack</source>
+      </sources>
+    </event>
+    <event id="CH-000043">
+      <date precision="day">2012-08-15</date>
+      <title>Shamoon attacks Saudi Aramco</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>Shamoon was used in a destructive attack that wiped large numbers of Saudi Aramco workstations.</summary>
+      <whyItStillMatters>The attack demonstrated the business impact of destructive malware and the importance of segmentation and recovery.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Shamoon</source>
+      </sources>
+    </event>
+    <event id="CH-000044">
+      <date precision="day">2013-02-19</date>
+      <title>Mandiant APT1 report</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Mandiant published a detailed report linking a large cyber-espionage campaign to a unit of China's People's Liberation Army.</summary>
+      <whyItStillMatters>The report helped normalize evidence-based public attribution of state-sponsored cyber operations.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/PLA_Unit_61398</source>
+      </sources>
+    </event>
+    <event id="CH-000045">
+      <date precision="day">2013-03-20</date>
+      <title>DarkSeoul attacks</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Cyberattacks disrupted major South Korean banks and broadcasters, wiping systems and affecting operations.</summary>
+      <whyItStillMatters>The incident showed how destructive malware can be used for national-level disruption.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2013_South_Korea_cyberattack</source>
+      </sources>
+    </event>
+    <event id="CH-000046">
+      <date precision="day">2013-10-03</date>
+      <title>Adobe breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Adobe disclosed an intrusion involving customer information and source code.</summary>
+      <whyItStillMatters>The breach illustrated the value attackers place on both identity data and proprietary software source code.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Adobe_Inc.#Security_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000047">
+      <date precision="day">2013-12-19</date>
+      <title>Target breach announced</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Target confirmed unauthorized access to payment-card data affecting tens of millions of accounts.</summary>
+      <whyItStillMatters>The breach became a landmark example of third-party access risk, point-of-sale compromise, and executive accountability.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://corporate.target.com/press/release/2013/12/target-confirms-unauthorized-access-to-payment-card-data-in-u-s-stores</source>
+        <source type="background">https://en.wikipedia.org/wiki/2013_Target_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000048">
+      <date precision="day">2014-02-12</date>
+      <title>NIST Cybersecurity Framework 1.0</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>NIST released the first Framework for Improving Critical Infrastructure Cybersecurity.</summary>
+      <whyItStillMatters>The Framework created a common risk-based language for cybersecurity outcomes and executive communication.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.nist.gov/news-events/news/2014/02/nist-releases-cybersecurity-framework-version-10</source>
+        <source type="background">https://en.wikipedia.org/wiki/NIST_Cybersecurity_Framework</source>
+      </sources>
+    </event>
+    <event id="CH-000049">
+      <date precision="day">2014-04-07</date>
+      <title>Heartbleed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Heartbleed exposed a flaw in OpenSSL heartbeat handling that allowed remote attackers to read portions of process memory.</summary>
+      <whyItStillMatters>It showed how one defect in a ubiquitous security library can create global risk and require key rotation beyond patching.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://nvd.nist.gov/vuln/detail/CVE-2014-0160</source>
+        <source type="background">https://en.wikipedia.org/wiki/Heartbleed</source>
+      </sources>
+    </event>
+    <event id="CH-000050">
+      <date precision="day">2014-09-08</date>
+      <title>Home Depot breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Home Depot disclosed a payment-card breach involving malware on point-of-sale systems.</summary>
+      <whyItStillMatters>Retail breaches reinforced the need for segmentation, payment-environment hardening, and third-party access controls.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Home_Depot#Data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000051">
+      <date precision="day">2014-09-24</date>
+      <title>Shellshock</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Shellshock allowed arbitrary command execution through crafted environment variables processed by GNU Bash.</summary>
+      <whyItStillMatters>It demonstrated the systemic risk created when foundational components are embedded across enormous software estates.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://nvd.nist.gov/vuln/detail/CVE-2014-6271</source>
+        <source type="background">https://en.wikipedia.org/wiki/Shellshock_(software_bug)</source>
+      </sources>
+    </event>
+    <event id="CH-000052">
+      <date precision="day">2014-10-02</date>
+      <title>JPMorgan Chase breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>JPMorgan Chase disclosed a major intrusion affecting contact information associated with tens of millions of households and small businesses.</summary>
+      <whyItStillMatters>The incident underscored the scale and attractiveness of identity data held by financial institutions.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2014_JPMorgan_Chase_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000053">
+      <date precision="day">2014-10-14</date>
+      <title>POODLE disclosed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Researchers disclosed a weakness in SSL 3.0 that could allow recovery of plaintext from encrypted connections.</summary>
+      <whyItStillMatters>Legacy compatibility can preserve attack paths long after stronger replacements exist.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://security.googleblog.com/2014/10/this-poodle-bites-exploiting-ssl-30.html</source>
+        <source type="background">https://en.wikipedia.org/wiki/POODLE</source>
+      </sources>
+    </event>
+    <event id="CH-000054">
+      <date precision="day">2014-11-24</date>
+      <title>Sony Pictures destructive attack</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Sony Pictures suffered a destructive intrusion involving malware, stolen data, and major operational disruption.</summary>
+      <whyItStillMatters>The attack showed how theft, coercion, public disclosure, and destruction can be combined in one campaign.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.fbi.gov/news/press-releases/update-on-sony-investigation</source>
+        <source type="background">https://en.wikipedia.org/wiki/Sony_Pictures_hack</source>
+      </sources>
+    </event>
+    <event id="CH-000055">
+      <date precision="day">2015-02-04</date>
+      <title>Anthem breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Anthem disclosed unauthorized access to a database containing information on current and former members and employees.</summary>
+      <whyItStillMatters>Healthcare identity data has long-lived value and creates exposure that persists well beyond incident containment.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Anthem_medical_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000056">
+      <date precision="day">2015-06-04</date>
+      <title>OPM breach announced</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>The U.S. Office of Personnel Management disclosed a major incident affecting federal personnel and background-investigation data.</summary>
+      <whyItStillMatters>The breach demonstrated the intelligence value of aggregated identity and personnel information.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.opm.gov/frequently-asked-questions/cybersecurity-information-faq/cybersecurity-june-4-2015/where-can-i-find-information-on-the-recent-cybersecurity-incidents/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Office_of_Personnel_Management_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000057">
+      <date precision="day">2015-07-08</date>
+      <title>Hacking Team breach</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Hacking Team's internal data and source code were leaked following a compromise.</summary>
+      <whyItStillMatters>The breach exposed the commercial offensive-security ecosystem and fueled debate over zero-day markets and surveillance technology.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Hacking_Team</source>
+      </sources>
+    </event>
+    <event id="CH-000058">
+      <date precision="day">2015-07-20</date>
+      <title>Ashley Madison breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Attackers disclosed a compromise of Ashley Madison and later released stolen user data.</summary>
+      <whyItStillMatters>The incident highlighted the personal, legal, and reputational consequences of breaches involving highly sensitive behavioral data.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Ashley_Madison_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000059">
+      <date precision="day">2015-12-23</date>
+      <title>Ukraine power grid cyberattack</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>A coordinated cyber operation disrupted electricity distribution in Ukraine through enterprise compromise and control-system access.</summary>
+      <whyItStillMatters>It became one of the defining examples of cyber operations causing real-world critical-infrastructure disruption.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack</source>
+      </sources>
+    </event>
+    <event id="CH-000060">
+      <date precision="day">2016-02-04</date>
+      <title>Bangladesh Bank cyber heist</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Attackers used compromised systems and fraudulent SWIFT messages in an attempt to steal nearly $1 billion from Bangladesh Bank.</summary>
+      <whyItStillMatters>The heist showed how cyber compromise can manipulate trusted financial messaging and payment processes.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery</source>
+      </sources>
+    </event>
+    <event id="CH-000061">
+      <date precision="day">2016-02-16</date>
+      <title>Hollywood Presbyterian ransomware payment</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>A hospital paid ransom after ransomware disrupted access to systems and records.</summary>
+      <whyItStillMatters>Healthcare became one of the earliest sectors to show how ransomware could affect service delivery and patient-care operations.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Hollywood_Presbyterian_Medical_Center_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000062">
+      <date precision="day">2016-06-14</date>
+      <title>DNC intrusion disclosed</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>The Democratic National Committee disclosed a network compromise attributed by investigators to Russian intelligence-linked groups.</summary>
+      <whyItStillMatters>The incident became a landmark example of cyber-enabled information operations intersecting with political processes.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Democratic_National_Committee_cyber_attacks</source>
+      </sources>
+    </event>
+    <event id="CH-000063">
+      <date precision="day">2016-08-13</date>
+      <title>Shadow Brokers leaks begin</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>The Shadow Brokers published tools and exploits allegedly associated with the Equation Group.</summary>
+      <whyItStillMatters>Leakage of high-end offensive tooling can rapidly convert state-developed capabilities into broad criminal attack risk.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/The_Shadow_Brokers</source>
+      </sources>
+    </event>
+    <event id="CH-000064">
+      <date precision="day">2016-10-21</date>
+      <title>Mirai / Dyn DDoS attack</title>
+      <primaryCategory>internet</primaryCategory>
+      <summary>A massive DDoS attack targeted DNS provider Dyn using the Mirai botnet, disrupting access to major online services.</summary>
+      <whyItStillMatters>The attack made insecure IoT devices part of the global threat model and highlighted DNS as critical shared infrastructure.</whyItStillMatters>
+      <rendering>
+        <icon>globe</icon>
+        <color>#0369A1</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2016_Dyn_cyberattack</source>
+      </sources>
+    </event>
+    <event id="CH-000065">
+      <date precision="day">2017-02-23</date>
+      <title>Cloudbleed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Cloudflare disclosed a memory-leak bug that could expose sensitive data from customer websites.</summary>
+      <whyItStillMatters>Shared cloud and edge infrastructure bugs can create cross-tenant confidentiality risk.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Cloudbleed</source>
+      </sources>
+    </event>
+    <event id="CH-000066">
+      <date precision="day">2017-03-01</date>
+      <title>NYDFS Cybersecurity Regulation</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>New York's cybersecurity regulation took effect for covered financial institutions.</summary>
+      <whyItStillMatters>The rule helped normalize executive accountability, risk assessment, incident reporting, and program governance in financial services.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.dfs.ny.gov/industry_guidance/cybersecurity</source>
+        <source type="background">https://en.wikipedia.org/wiki/New_York_State_Department_of_Financial_Services</source>
+      </sources>
+    </event>
+    <event id="CH-000067">
+      <date precision="day">2017-03-14</date>
+      <title>MS17-010 released</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Microsoft fixed critical SMBv1 vulnerabilities including the flaw later associated with EternalBlue.</summary>
+      <whyItStillMatters>Organizations had nearly two months to patch before WannaCry weaponized the flaw at global scale.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://learn.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010</source>
+        <source type="background">https://en.wikipedia.org/wiki/EternalBlue</source>
+      </sources>
+    </event>
+    <event id="CH-000068">
+      <date precision="day">2017-04-14</date>
+      <title>EternalBlue exploit released publicly</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>The Shadow Brokers released offensive tooling including EternalBlue.</summary>
+      <whyItStillMatters>Public release of weaponized exploit code dramatically shortened the path from vulnerability to widespread criminal use.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/EternalBlue</source>
+      </sources>
+    </event>
+    <event id="CH-000069">
+      <date precision="day">2017-05-12</date>
+      <title>WannaCry</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>WannaCry spread globally by exploiting an SMB vulnerability Microsoft had patched two months earlier.</summary>
+      <whyItStillMatters>It remains a defining example of the cost of delayed patching, unsupported systems, and flat networks.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.microsoft.com/en-us/security/blog/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/</source>
+        <source type="background">https://en.wikipedia.org/wiki/WannaCry_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000070">
+      <date precision="day">2017-06-27</date>
+      <title>NotPetya</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>NotPetya spread from compromised Ukrainian software into organizations around the world and functioned primarily as destructive malware.</summary>
+      <whyItStillMatters>It remains a textbook example of a targeted supply-chain compromise creating enormous unintended blast radius.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.microsoft.com/en-us/security/blog/2017/06/27/new-ransomware-old-techniques-Petya-adds-worm-capabilities/</source>
+        <source type="background">https://en.wikipedia.org/wiki/2017_Ukraine_ransomware_attacks</source>
+      </sources>
+    </event>
+    <event id="CH-000071">
+      <date precision="day">2017-09-07</date>
+      <title>Equifax breach announced</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Equifax disclosed a major incident involving highly sensitive consumer identity data.</summary>
+      <whyItStillMatters>It became a defining case for vulnerability management, data concentration, executive accountability, and identity risk.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://investor.equifax.com/news-events/press-releases/detail/240/equifax-announces-cybersecurity-incident-involving-consumer</source>
+        <source type="background">https://en.wikipedia.org/wiki/2017_Equifax_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000072">
+      <date precision="day">2017-10-16</date>
+      <title>KRACK disclosed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Researchers disclosed key reinstallation attacks against WPA2.</summary>
+      <whyItStillMatters>Even mature, ubiquitous security protocols can fail through subtle state-machine and implementation flaws.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/KRACK</source>
+      </sources>
+    </event>
+    <event id="CH-000073">
+      <date precision="day">2017-11-21</date>
+      <title>Uber breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Uber disclosed a 2016 breach involving personal data for millions of riders and drivers and acknowledged paying the attackers.</summary>
+      <whyItStillMatters>The incident became a governance case study in breach disclosure, extortion, and executive accountability.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Uber#Data_breaches</source>
+      </sources>
+    </event>
+    <event id="CH-000074">
+      <date precision="day">2018-01-03</date>
+      <title>Meltdown and Spectre</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Researchers disclosed speculative-execution attacks affecting modern processors.</summary>
+      <whyItStillMatters>The flaws showed that security failures can exist below the operating system and require coordinated hardware and software fixes.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/answering-your-questions-about-meltdown-and-spectre/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)</source>
+      </sources>
+    </event>
+    <event id="CH-000075">
+      <date precision="day">2018-02-27</date>
+      <title>GitHub 1.35 Tbps DDoS</title>
+      <primaryCategory>internet</primaryCategory>
+      <summary>GitHub experienced a record-setting DDoS attack amplified through exposed memcached servers.</summary>
+      <whyItStillMatters>Misconfigured Internet infrastructure can be weaponized for enormous amplification attacks.</whyItStillMatters>
+      <rendering>
+        <icon>globe</icon>
+        <color>#0369A1</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://github.blog/news-insights/company-news/ddos-incident-report/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Memcached</source>
+      </sources>
+    </event>
+    <event id="CH-000076">
+      <date precision="day">2018-03-17</date>
+      <title>Cambridge Analytica scandal breaks widely</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>Reporting revealed large-scale harvesting and political use of Facebook user data through a third-party app ecosystem.</summary>
+      <whyItStillMatters>The scandal accelerated scrutiny of platform data governance, consent, third-party access, and privacy accountability.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal</source>
+      </sources>
+    </event>
+    <event id="CH-000077">
+      <date precision="day">2018-05-25</date>
+      <title>GDPR becomes applicable</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>The EU General Data Protection Regulation became applicable across member states.</summary>
+      <whyItStillMatters>GDPR materially changed the global privacy landscape and made data governance, security, and privacy inseparable executive concerns.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://eur-lex.europa.eu/content/news/general-data-protection-regulation-GDPR-applies-from-25-May-2018.html</source>
+        <source type="background">https://en.wikipedia.org/wiki/General_Data_Protection_Regulation</source>
+      </sources>
+    </event>
+    <event id="CH-000078">
+      <date precision="day">2018-06-28</date>
+      <title>CCPA signed</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>California enacted the Consumer Privacy Act, creating new rights around access, deletion, disclosure, and sale of personal information.</summary>
+      <whyItStillMatters>CCPA helped establish a U.S. state-level privacy model that influenced subsequent legislation.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375</source>
+        <source type="background">https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act</source>
+      </sources>
+    </event>
+    <event id="CH-000079">
+      <date precision="day">2018-07-20</date>
+      <title>SingHealth breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Singapore disclosed theft of personal data belonging to about 1.5 million SingHealth patients.</summary>
+      <whyItStillMatters>Healthcare data has long-term intelligence and identity-abuse value, not merely immediate financial value.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.moh.gov.sg/newsroom/singhealth%27s-it-system-target-of-cyberattack/</source>
+        <source type="background">https://en.wikipedia.org/wiki/2018_SingHealth_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000080">
+      <date precision="day">2018-11-16</date>
+      <title>CISA established</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>The Cybersecurity and Infrastructure Security Agency Act formally established CISA.</summary>
+      <whyItStillMatters>CISA became the central U.S. civilian agency for cyber defense, critical-infrastructure security, and vulnerability coordination.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/alerts/2018/11/19/cybersecurity-and-infrastructure-security-agency</source>
+        <source type="background">https://en.wikipedia.org/wiki/Cybersecurity_and_Infrastructure_Security_Agency</source>
+      </sources>
+    </event>
+    <event id="CH-000081">
+      <date precision="day">2018-11-30</date>
+      <title>Marriott / Starwood breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Marriott announced unauthorized access to the Starwood reservation database involving a large volume of guest data.</summary>
+      <whyItStillMatters>The incident highlighted acquisition due diligence, inherited technology risk, data retention, and long attacker dwell time.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Marriott_International_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000082">
+      <date precision="day">2019-03-19</date>
+      <title>Norsk Hydro ransomware attack</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Norsk Hydro suffered a ransomware attack that disrupted global operations and forced substantial manual processing.</summary>
+      <whyItStillMatters>Its response became a widely cited example of transparent crisis communication and resilience.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Norsk_Hydro_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000083">
+      <date precision="day">2019-05-07</date>
+      <title>Baltimore ransomware attack</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Baltimore city systems were disrupted by ransomware, affecting email, property transactions, billing, and municipal services.</summary>
+      <whyItStillMatters>Ransomware can become a public-service continuity problem, not merely an IT outage.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2019_Baltimore_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000084">
+      <date precision="day">2019-05-14</date>
+      <title>BlueKeep</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Microsoft released fixes for a pre-authentication remote-code-execution vulnerability in Remote Desktop Services and warned it was wormable.</summary>
+      <whyItStillMatters>BlueKeep reinforced the danger of exposed remote administration and end-of-life systems.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.microsoft.com/en-us/msrc/blog/2019/05/prevent-a-worm-by-updating-remote-desktop-services-cve-2019-0708</source>
+        <source type="background">https://en.wikipedia.org/wiki/BlueKeep</source>
+      </sources>
+    </event>
+    <event id="CH-000085">
+      <date precision="day">2019-07-29</date>
+      <title>Capital One breach announced</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Capital One disclosed unauthorized access to personal information associated with credit-card applications and customers.</summary>
+      <whyItStillMatters>The breach became a cloud-security case study in configuration, identity, metadata services, and least privilege.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/</source>
+        <source type="background">https://en.wikipedia.org/wiki/2019_Capital_One_cyber_incident</source>
+      </sources>
+    </event>
+    <event id="CH-000086">
+      <date precision="day">2020-01-14</date>
+      <title>Windows 7 end of support</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>Microsoft ended routine support for Windows 7.</summary>
+      <whyItStillMatters>End-of-life operating systems become long-term security liabilities when organizations cannot retire or isolate them.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://support.microsoft.com/en-us/windows/windows-7-support-ended-on-january-14-2020-b75dcd83-19f2-b6e3-2d1f-3f15a4f6f7f9</source>
+        <source type="background">https://en.wikipedia.org/wiki/Windows_7</source>
+      </sources>
+    </event>
+    <event id="CH-000087">
+      <date precision="day">2020-07-15</date>
+      <title>Twitter account takeover</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>Attackers compromised internal tools and took over numerous high-profile Twitter accounts to promote a cryptocurrency scam.</summary>
+      <whyItStillMatters>Privileged support workflows can bypass strong user-facing security controls.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2020_Twitter_account_hijacking</source>
+      </sources>
+    </event>
+    <event id="CH-000088">
+      <date precision="day">2020-07-23</date>
+      <title>Garmin ransomware outage</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Garmin experienced a major outage affecting online services, support, and connected-device synchronization following ransomware.</summary>
+      <whyItStillMatters>Ransomware can disrupt both enterprise operations and customer-facing connected services.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Garmin#2020_outage</source>
+      </sources>
+    </event>
+    <event id="CH-000089">
+      <date precision="day">2020-09-10</date>
+      <title>Düsseldorf hospital ransomware incident</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>A ransomware incident disrupted systems at a German hospital and was associated with diversion of an emergency patient.</summary>
+      <whyItStillMatters>Cyber incidents in healthcare can create real-world safety consequences.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2020_D%C3%BCsseldorf_University_Hospital_cyberattack</source>
+      </sources>
+    </event>
+    <event id="CH-000090">
+      <date precision="day">2020-12-08</date>
+      <title>FireEye breach disclosed</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>FireEye disclosed that a sophisticated actor stole proprietary Red Team assessment tools.</summary>
+      <whyItStillMatters>The incident showed the value attackers place on security tooling and the need for rapid public defensive action after compromise.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.mandiant.com/resources/blog/unauthorized-access-of-fireeye-red-team-tools</source>
+        <source type="background">https://en.wikipedia.org/wiki/FireEye</source>
+      </sources>
+    </event>
+    <event id="CH-000091">
+      <date precision="day">2020-12-13</date>
+      <title>SolarWinds Orion compromise</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>CISA warned of active exploitation involving compromised SolarWinds Orion releases delivered through trusted updates.</summary>
+      <whyItStillMatters>SolarWinds changed how boards and security teams think about software supply chains and privileged management platforms.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/alerts/2020/12/13/active-exploitation-solarwinds-software</source>
+        <source type="background">https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000092">
+      <date precision="day">2021-03-02</date>
+      <title>HAFNIUM / Exchange zero-days</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Microsoft disclosed active exploitation of previously unknown Exchange Server vulnerabilities by a China-based threat actor it called HAFNIUM.</summary>
+      <whyItStillMatters>Internet-facing messaging infrastructure became a direct path into enterprise networks.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://blogs.microsoft.com/on-the-issues/2021/03/02/new-nation-state-cyberattacks/</source>
+        <source type="background">https://en.wikipedia.org/wiki/2021_Microsoft_Exchange_Server_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000093">
+      <date precision="day">2021-05-07</date>
+      <title>Colonial Pipeline ransomware</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>Colonial Pipeline experienced a network disruption that led to shutdown of pipeline operations; the FBI later confirmed DarkSide ransomware.</summary>
+      <whyItStillMatters>A business-system compromise can create physical-world consequences when operations are shut down for safety or containment.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.fbi.gov/news/press-releases/fbi-statement-on-network-disruption-at-colonial-pipeline</source>
+        <source type="background">https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000094">
+      <date precision="day">2021-05-30</date>
+      <title>JBS ransomware attack</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>JBS experienced a ransomware attack that disrupted meat-processing operations in multiple countries.</summary>
+      <whyItStillMatters>Ransomware against concentrated suppliers can create broader economic and supply-chain risk.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/JBS_S.A.#Cyberattack</source>
+      </sources>
+    </event>
+    <event id="CH-000095">
+      <date precision="day">2021-07-01</date>
+      <title>PrintNightmare</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Critical Windows Print Spooler vulnerabilities and public exploit code drew widespread attention.</summary>
+      <whyItStillMatters>Legacy services can create high-impact enterprise attack paths, and disclosure confusion can complicate remediation.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/PrintNightmare</source>
+      </sources>
+    </event>
+    <event id="CH-000096">
+      <date precision="day">2021-07-02</date>
+      <title>Kaseya VSA ransomware attack</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>A ransomware campaign exploited Kaseya VSA and affected managed service providers and downstream customers.</summary>
+      <whyItStillMatters>Management platforms offer attackers enormous leverage because one compromise can cascade into many customers.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://content.govdelivery.com/accounts/USDHSCISA/bulletins/2e6a462</source>
+        <source type="background">https://en.wikipedia.org/wiki/Kaseya_VSA_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000097">
+      <date precision="day">2021-11-03</date>
+      <title>CISA Known Exploited Vulnerabilities catalog</title>
+      <primaryCategory>milestone</primaryCategory>
+      <summary>CISA issued BOD 22-01 and operationalized the Known Exploited Vulnerabilities catalog for federal remediation prioritization.</summary>
+      <whyItStillMatters>It helped shift vulnerability management toward exploitation evidence and real-world risk rather than severity scores alone.</whyItStillMatters>
+      <rendering>
+        <icon>star</icon>
+        <color>#15803D</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/directives</source>
+        <source type="background">https://en.wikipedia.org/wiki/Cybersecurity_and_Infrastructure_Security_Agency</source>
+      </sources>
+    </event>
+    <event id="CH-000098">
+      <date precision="day">2021-12-10</date>
+      <title>Log4Shell</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Log4Shell exposed remote-code-execution risk in widely deployed Apache Log4j versions through JNDI lookup behavior.</summary>
+      <whyItStillMatters>It showed how hidden software dependencies can become enterprise-wide security emergencies.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a</source>
+        <source type="background">https://en.wikipedia.org/wiki/Log4Shell</source>
+      </sources>
+    </event>
+    <event id="CH-000099">
+      <date precision="day">2022-01-13</date>
+      <title>WhisperGate destructive malware</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Microsoft described destructive malware targeting Ukrainian organizations and masquerading as ransomware.</summary>
+      <whyItStillMatters>The campaign foreshadowed use of cyber operations alongside escalating geopolitical conflict.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.microsoft.com/en-us/security/blog/2022/01/15/destructive-malware-targeting-ukrainian-organizations/</source>
+        <source type="background">https://en.wikipedia.org/wiki/2022_Ukraine_cyberattacks</source>
+      </sources>
+    </event>
+    <event id="CH-000100">
+      <date precision="day">2022-02-23</date>
+      <title>HermeticWiper attacks</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Destructive wiper malware was deployed against Ukrainian organizations immediately before Russia's full-scale invasion.</summary>
+      <whyItStillMatters>The campaign showed how destructive cyber operations can be integrated into broader military conflict.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2022_Ukraine_cyberattacks</source>
+      </sources>
+    </event>
+    <event id="CH-000101">
+      <date precision="day">2022-03-22</date>
+      <title>Okta / LAPSUS$ incident disclosed</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>Okta disclosed details around a third-party support engineer compromise after LAPSUS$ published screenshots suggesting access.</summary>
+      <whyItStillMatters>The incident highlighted identity-provider concentration and privileged third-party support risk.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Lapsus$</source>
+      </sources>
+    </event>
+    <event id="CH-000102">
+      <date precision="day">2022-03-31</date>
+      <title>Spring4Shell</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>A critical Spring Framework vulnerability could enable unauthenticated remote code execution under affected configurations.</summary>
+      <whyItStillMatters>It reinforced the challenge of rapidly understanding application-framework exposure across large software estates.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://cert.europa.eu/publications/security-advisories/2022-023/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Spring_Framework</source>
+      </sources>
+    </event>
+    <event id="CH-000103">
+      <date precision="day">2022-04-06</date>
+      <title>Costa Rica ransomware crisis</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Conti ransomware attacks disrupted multiple Costa Rican government agencies and public services.</summary>
+      <whyItStillMatters>The crisis showed ransomware reaching a level where a national government declared an emergency.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2022_Costa_Rican_ransomware_attack</source>
+      </sources>
+    </event>
+    <event id="CH-000104">
+      <date precision="day">2022-08-25</date>
+      <title>LastPass development-environment breach</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>LastPass disclosed unauthorized access to portions of its development environment through a compromised developer account.</summary>
+      <whyItStillMatters>Technical information and developer access can become building blocks for follow-on compromise.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://blog.lastpass.com/posts/notice-of-security-incident</source>
+        <source type="background">https://en.wikipedia.org/wiki/LastPass</source>
+      </sources>
+    </event>
+    <event id="CH-000105">
+      <date precision="day">2022-09-15</date>
+      <title>Uber intrusion</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>Uber disclosed a security incident after an attacker gained broad internal access using social engineering and compromised credentials.</summary>
+      <whyItStillMatters>The incident reinforced the importance of phishing-resistant authentication and privileged-access segmentation.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Uber#2022_security_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000106">
+      <date precision="day">2022-09-22</date>
+      <title>Optus breach</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Australian telecom provider Optus disclosed a major breach involving customer identity information.</summary>
+      <whyItStillMatters>Telecommunications providers are high-value targets because they combine identity, account, device, and communications data.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2022_Optus_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000107">
+      <date precision="day">2022-10-13</date>
+      <title>Medibank cyber incident</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Australian health insurer Medibank disclosed an incident that later involved theft and publication of highly sensitive customer data.</summary>
+      <whyItStillMatters>Health and claims data can create extreme privacy harm when stolen and used for extortion.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/2022_Medibank_cyberattack</source>
+      </sources>
+    </event>
+    <event id="CH-000108">
+      <date precision="day">2022-11-01</date>
+      <title>OpenSSL CVE-2022-3602 / 3786</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>OpenSSL released fixes for certificate-parsing vulnerabilities that drew broad attention because of the library's ubiquity.</summary>
+      <whyItStillMatters>The episode reinforced the need for rapid dependency inventory when shared libraries are affected.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.openssl.org/news/secadv/20221101.txt</source>
+        <source type="background">https://en.wikipedia.org/wiki/OpenSSL</source>
+      </sources>
+    </event>
+    <event id="CH-000109">
+      <date precision="day">2023-01-11</date>
+      <title>Royal Mail ransomware incident</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>A ransomware incident disrupted Royal Mail's international export services.</summary>
+      <whyItStillMatters>Ransomware against logistics and postal systems can interrupt physical commerce and supply chains.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Royal_Mail#2023_cyber_incident</source>
+      </sources>
+    </event>
+    <event id="CH-000110">
+      <date precision="day">2023-02-02</date>
+      <title>ESXiArgs campaign</title>
+      <primaryCategory>malware</primaryCategory>
+      <summary>Widespread ransomware exploitation targeted Internet-exposed VMware ESXi systems.</summary>
+      <whyItStillMatters>Exposed virtualization infrastructure creates difficult recovery scenarios when hypervisors themselves are encrypted.</whyItStillMatters>
+      <rendering>
+        <icon>bug</icon>
+        <color>#DC2626</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/alerts/2023/02/09/cisa-and-fbi-release-esxiargs-ransomware-recovery-guidance</source>
+        <source type="background">https://en.wikipedia.org/wiki/VMware_ESXi</source>
+      </sources>
+    </event>
+    <event id="CH-000111">
+      <date precision="day">2023-03-29</date>
+      <title>3CX supply-chain compromise</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>A trojanized 3CX desktop application was used in a supply-chain attack affecting downstream customers.</summary>
+      <whyItStillMatters>Trusted signed software can become an attack-delivery channel when development or build environments are compromised.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp</source>
+        <source type="background">https://en.wikipedia.org/wiki/3CX</source>
+      </sources>
+    </event>
+    <event id="CH-000112">
+      <date precision="day">2023-05-31</date>
+      <title>MOVEit zero-day disclosed</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>Progress Software released patches for a critical MOVEit Transfer vulnerability after signs of active exploitation.</summary>
+      <whyItStillMatters>One widely used file-transfer product created cascading third-party data exposure across many organizations.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/Archives/edgar/data/876167/000087616723000113/prgs-20230530.htm</source>
+        <source type="background">https://en.wikipedia.org/wiki/2023_MOVEit_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000113">
+      <date precision="day">2023-07-26</date>
+      <title>SEC cybersecurity disclosure rules</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>The SEC adopted rules requiring public companies to disclose material cyber incidents and annual information about risk management and governance.</summary>
+      <whyItStillMatters>Cybersecurity materiality and governance became explicit securities-law concerns for public companies.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/newsroom/press-releases/2023-139</source>
+        <source type="background">https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission</source>
+      </sources>
+    </event>
+    <event id="CH-000114">
+      <date precision="day">2023-09-12</date>
+      <title>MGM Resorts cyber incident</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>MGM Resorts disclosed a cybersecurity issue affecting U.S. systems and significant property operations.</summary>
+      <whyItStillMatters>The event showed how identity compromise and containment can rapidly become visible business-operations problems.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/Archives/edgar/data/789570/000119312523233855/d502352dex991.htm</source>
+        <source type="background">https://en.wikipedia.org/wiki/MGM_Resorts_International</source>
+      </sources>
+    </event>
+    <event id="CH-000115">
+      <date precision="month">2023-09</date>
+      <title>Caesars Entertainment cyber incident</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Caesars disclosed a cyber incident involving theft of loyalty-program customer data and payment to attackers.</summary>
+      <whyItStillMatters>The event reinforced the value of identity data and the role of social engineering in hospitality attacks.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Caesars_Entertainment</source>
+      </sources>
+    </event>
+    <event id="CH-000116">
+      <date precision="day">2023-10-10</date>
+      <title>Citrix Bleed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Citrix released updates for a NetScaler vulnerability later associated with session-token theft and session hijacking.</summary>
+      <whyItStillMatters>Patching alone may not terminate attacker access obtained before remediation; session invalidation can also be required.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/guidance-addressing-citrix-netscaler-adc-and-gateway-vulnerability-cve-2023-4966-citrix-bleed</source>
+        <source type="background">https://en.wikipedia.org/wiki/NetScaler</source>
+      </sources>
+    </event>
+    <event id="CH-000117">
+      <date precision="day">2023-10-20</date>
+      <title>Okta support-system breach</title>
+      <primaryCategory>identity</primaryCategory>
+      <summary>Okta disclosed unauthorized access to its customer support case-management system using a stolen credential.</summary>
+      <whyItStillMatters>Identity providers sit at a uniquely sensitive trust boundary, including supporting systems and uploaded troubleshooting artifacts.</whyItStillMatters>
+      <rendering>
+        <icon>key</icon>
+        <color>#4F46E5</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Okta,_Inc.</source>
+      </sources>
+    </event>
+    <event id="CH-000118">
+      <date precision="day">2023-10-30</date>
+      <title>SEC charges SolarWinds and CISO</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>The SEC filed civil charges against SolarWinds and its CISO alleging fraud and internal-control failures related to cybersecurity disclosures.</summary>
+      <whyItStillMatters>The case intensified scrutiny of executive cybersecurity statements, disclosure controls, and personal accountability.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/newsroom/press-releases/2023-227</source>
+        <source type="background">https://en.wikipedia.org/wiki/2020_United_States_federal_government_data_breach</source>
+      </sources>
+    </event>
+    <event id="CH-000119">
+      <date precision="day">2024-01-10</date>
+      <title>Ivanti Connect Secure zero-days</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Ivanti disclosed critical vulnerabilities affecting Connect Secure and Policy Secure appliances that were being exploited.</summary>
+      <whyItStillMatters>Internet-facing security appliances are prime initial-access targets and require rapid patching plus compromise assessment.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Ivanti</source>
+      </sources>
+    </event>
+    <event id="CH-000120">
+      <date precision="day">2024-02-21</date>
+      <title>Change Healthcare cyberattack</title>
+      <primaryCategory>critical_infrastructure</primaryCategory>
+      <summary>UnitedHealth disclosed a cyberattack affecting Change Healthcare and disrupting claims, payments, pharmacy, and healthcare transactions.</summary>
+      <whyItStillMatters>Concentration in a critical third-party platform can turn one compromise into a sector-wide operational problem.</whyItStillMatters>
+      <rendering>
+        <icon>industry</icon>
+        <color>#0E7490</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/Archives/edgar/data/731766/000073176624000045/unh-20240221.htm</source>
+        <source type="background">https://en.wikipedia.org/wiki/Change_Healthcare</source>
+      </sources>
+    </event>
+    <event id="CH-000121">
+      <date precision="day">2024-02-26</date>
+      <title>NIST Cybersecurity Framework 2.0</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>NIST released CSF 2.0, expanding applicability and adding the Govern function.</summary>
+      <whyItStillMatters>It formalized cybersecurity as an enterprise governance responsibility, not merely a technical function.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework</source>
+        <source type="background">https://en.wikipedia.org/wiki/NIST_Cybersecurity_Framework</source>
+      </sources>
+    </event>
+    <event id="CH-000122">
+      <date precision="day">2024-03-29</date>
+      <title>XZ Utils backdoor</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>A sophisticated backdoor was discovered in XZ Utils 5.6.0 and 5.6.1 after malicious code entered upstream release tarballs.</summary>
+      <whyItStillMatters>Patient compromise of an open-source project can create risk far beyond the original repository.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.cisa.gov/news-events/alerts/2024/03/29/reported-supply-chain-compromise-affecting-xz-utils-data-compression-library-cve-2024-3094</source>
+        <source type="background">https://en.wikipedia.org/wiki/XZ_Utils_backdoor</source>
+      </sources>
+    </event>
+    <event id="CH-000123">
+      <date precision="day">2024-04-12</date>
+      <title>PAN-OS CVE-2024-3400 disclosed</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Palo Alto Networks disclosed a critical command-injection vulnerability affecting GlobalProtect on certain PAN-OS configurations.</summary>
+      <whyItStillMatters>Security perimeter devices can become privileged attack paths when Internet-facing components are exploitable.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://nvd.nist.gov/vuln/detail/CVE-2024-3400</source>
+        <source type="background">https://en.wikipedia.org/wiki/Palo_Alto_Networks</source>
+      </sources>
+    </event>
+    <event id="CH-000124">
+      <date precision="month">2024-05</date>
+      <title>Snowflake customer compromises emerge</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>A campaign involving stolen customer credentials affected multiple organizations using Snowflake-hosted data environments.</summary>
+      <whyItStillMatters>Shared cloud platforms amplify the importance of MFA, credential hygiene, and identity logging.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Snowflake_Inc.</source>
+      </sources>
+    </event>
+    <event id="CH-000125">
+      <date precision="day">2024-05-31</date>
+      <title>Live Nation / Ticketmaster cloud incident</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>Live Nation disclosed unauthorized activity in a third-party cloud database environment containing company data including Ticketmaster information.</summary>
+      <whyItStillMatters>The incident highlighted third-party cloud concentration and the use of stolen credentials against SaaS and data platforms.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.sec.gov/Archives/edgar/data/1335258/000133525824000081/lyv-20240531.htm</source>
+        <source type="background">https://en.wikipedia.org/wiki/Ticketmaster</source>
+      </sources>
+    </event>
+    <event id="CH-000126">
+      <date precision="day">2024-06-26</date>
+      <title>Polyfill.io compromise</title>
+      <primaryCategory>supply_chain</primaryCategory>
+      <summary>Cloudflare reported that the popular polyfill.io JavaScript service could no longer be trusted after malicious code injection.</summary>
+      <whyItStillMatters>Externally hosted client-side dependencies can silently become supply-chain channels into huge numbers of websites.</whyItStillMatters>
+      <rendering>
+        <icon>link</icon>
+        <color>#0F766E</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://blog.cloudflare.com/automatically-replacing-polyfill-io-links-with-cloudflares-mirror-for-a-safer-internet/</source>
+        <source type="background">https://en.wikipedia.org/wiki/Polyfill_(programming)</source>
+      </sources>
+    </event>
+    <event id="CH-000127">
+      <date precision="day">2024-07-01</date>
+      <title>regreSSHion</title>
+      <primaryCategory>vulnerability</primaryCategory>
+      <summary>Qualys disclosed an unauthenticated remote-code-execution vulnerability in OpenSSH server on affected glibc-based Linux systems.</summary>
+      <whyItStillMatters>Fixed vulnerabilities can return through code changes; regression testing matters even for mature infrastructure software.</whyItStillMatters>
+      <rendering>
+        <icon>triangle-exclamation</icon>
+        <color>#2563EB</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.qualys.com/regresshion-cve-2024-6387</source>
+        <source type="background">https://en.wikipedia.org/wiki/OpenSSH</source>
+      </sources>
+    </event>
+    <event id="CH-000128">
+      <date precision="day">2024-07-19</date>
+      <title>CrowdStrike Channel File 291 outage</title>
+      <primaryCategory>internet</primaryCategory>
+      <summary>A CrowdStrike content configuration update triggered Windows system crashes at global scale; CrowdStrike said it was not a cyberattack.</summary>
+      <whyItStillMatters>The outage demonstrated concentration risk in security tooling and the importance of staged deployment, rollback, validation, and resilience.</whyItStillMatters>
+      <rendering>
+        <icon>globe</icon>
+        <color>#0369A1</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://www.crowdstrike.com/en-us/blog/falcon-content-update-preliminary-post-incident-report/</source>
+        <source type="background">https://en.wikipedia.org/wiki/2024_CrowdStrike-related_IT_outages</source>
+      </sources>
+    </event>
+    <event id="CH-000129">
+      <date precision="day">2024-08-01</date>
+      <title>EU AI Act enters into force</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>The European Union's AI Act entered into force, establishing a risk-based legal framework for artificial intelligence systems.</summary>
+      <whyItStillMatters>AI governance became a formal compliance discipline increasingly intersecting with cybersecurity, privacy, and digital trust.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://commission.europa.eu/news-and-media/news/ai-act-enters-force-2024-08-01_en</source>
+        <source type="background">https://en.wikipedia.org/wiki/Artificial_Intelligence_Act</source>
+      </sources>
+    </event>
+    <event id="CH-000130">
+      <date precision="month">2024-09</date>
+      <title>Salt Typhoon telecom intrusions become public</title>
+      <primaryCategory>nation_state</primaryCategory>
+      <summary>Reports described a China-linked campaign compromising major telecommunications providers and sensitive communications infrastructure.</summary>
+      <whyItStillMatters>Telecom infrastructure is strategic because compromise can provide access to communications, metadata, and intelligence collection.</whyItStillMatters>
+      <rendering>
+        <icon>crosshairs</icon>
+        <color>#7C3AED</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/Salt_Typhoon</source>
+      </sources>
+    </event>
+    <event id="CH-000131">
+      <date precision="day">2024-10-17</date>
+      <title>NIS2 transposition deadline</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>EU member states reached the deadline for transposing the NIS2 Directive into national law.</summary>
+      <whyItStillMatters>NIS2 raised expectations for governance, supply-chain security, incident reporting, and executive accountability.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/NIS2_Directive</source>
+      </sources>
+    </event>
+    <event id="CH-000132">
+      <date precision="day">2024-12-10</date>
+      <title>EU Cyber Resilience Act enters into force</title>
+      <primaryCategory>governance</primaryCategory>
+      <summary>The Cyber Resilience Act entered into force, establishing cybersecurity requirements for products with digital elements.</summary>
+      <whyItStillMatters>It moves software and hardware security toward lifecycle duty of care, secure-by-design expectations, and manufacturer accountability.</whyItStillMatters>
+      <rendering>
+        <icon>scale-balanced</icon>
+        <color>#B7791F</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>reviewed</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="authoritative_or_technical">https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act</source>
+        <source type="background">https://en.wikipedia.org/wiki/Cyber_Resilience_Act</source>
+      </sources>
+    </event>
+    <event id="CH-000133">
+      <date precision="day">2025-01-07</date>
+      <title>PowerSchool breach publicly reported</title>
+      <primaryCategory>incident</primaryCategory>
+      <summary>PowerSchool disclosed unauthorized access to its student information system environment and data belonging to school districts.</summary>
+      <whyItStillMatters>Concentrated education platforms hold sensitive data on students, parents, and staff and create broad downstream exposure when compromised.</whyItStillMatters>
+      <rendering>
+        <icon>shield-exclamation</icon>
+        <color>#EA580C</color>
+      </rendering>
+      <anniversaryEnabled>true</anniversaryEnabled>
+      <verificationStatus>needs_primary_source</verificationStatus>
+      <lastReviewed>2026-09-26</lastReviewed>
+      <sources>
+        <source type="background">https://en.wikipedia.org/wiki/PowerSchool</source>
+      </sources>
+    </event>
+  </events>
+</cyberHistory>
