@@ -1,0 +1,958 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Longo.org//Cyber History//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Longo.org Cyber History
+BEGIN:VEVENT
+UID:CH-000001@longo.org
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+RRULE:FREQ=YEARLY
+SUMMARY:Fred Cohen virus demonstration (1983)
+DESCRIPTION:Fred Cohen demonstrated self-replicating code during academic security research\, helping formalize the modern computer-virus concept.\\n\\nWhy it still matters: It helped turn malicious self-replication into a defined computer-security problem.\\n\\nSource: https://en.wikipedia.org/wiki/Fred_Cohen
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000003@longo.org
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+RRULE:FREQ=YEARLY
+SUMMARY:Morris Worm (1988)
+DESCRIPTION:The Morris Worm spread rapidly across the early Internet\, exploiting multiple weaknesses and affecting thousands of systems.\\n\\nWhy it still matters: It became a foundational Internet security incident and helped drive organized incident-response capability.\\n\\nSource: https://www.fbi.gov/history/famous-cases/morris-worm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000004@longo.org
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+RRULE:FREQ=YEARLY
+SUMMARY:CERT Coordination Center established (1988)
+DESCRIPTION:DARPA funded creation of the CERT Coordination Center at Carnegie Mellon after the Morris Worm.\\n\\nWhy it still matters: Modern incident coordination and vulnerability-response practices trace directly to needs exposed by early Internet-wide incidents.\\n\\nSource: https://www.sei.cmu.edu/about/divisions/cert/index.cfm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000009@longo.org
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+RRULE:FREQ=YEARLY
+SUMMARY:Back Orifice released (1998)
+DESCRIPTION:Cult of the Dead Cow released Back Orifice\, a remote-administration tool that could covertly control Windows systems.\\n\\nWhy it still matters: It popularized the concept of remote-access trojans and abuse of legitimate administration functions.\\n\\nSource: https://en.wikipedia.org/wiki/Back_Orifice
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000010@longo.org
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+RRULE:FREQ=YEARLY
+SUMMARY:Melissa (1999)
+DESCRIPTION:Melissa spread through infected Word documents and Outlook address books\, disrupting enterprise mail systems.\\n\\nWhy it still matters: Attackers still win by abusing trust\, familiar file formats\, and legitimate communication channels.\\n\\nSource: https://www.fbi.gov/news/stories/melissa-virus-20th-anniversary-032519
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000011@longo.org
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+RRULE:FREQ=YEARLY
+SUMMARY:CIH / Chernobyl virus (1999)
+DESCRIPTION:CIH overwrote hard-drive data and\, on some systems\, flash BIOS content when it activated.\\n\\nWhy it still matters: It is an early example of malware designed for destructive impact beyond nuisance or propagation.\\n\\nSource: https://www.sei.cmu.edu/documents/520/1999_019_001_496442.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000014@longo.org
+DTSTART;VALUE=DATE:20260504
+DTEND;VALUE=DATE:20260505
+RRULE:FREQ=YEARLY
+SUMMARY:ILOVEYOU / Love Letter worm (2000)
+DESCRIPTION:The Love Letter worm spread through a malicious Visual Basic Script attachment and automated forwarding.\\n\\nWhy it still matters: It combined human psychology with automated propagation\, a pattern still visible in modern phishing and malware delivery.\\n\\nSource: https://www.sei.cmu.edu/documents/507/2000_019_001_496188.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000015@longo.org
+DTSTART;VALUE=DATE:20260212
+DTEND;VALUE=DATE:20260213
+RRULE:FREQ=YEARLY
+SUMMARY:Anna Kournikova worm (2001)
+DESCRIPTION:A social-engineering worm disguised as an image of tennis player Anna Kournikova spread widely through email.\\n\\nWhy it still matters: Compelling lures and trusted communication channels remain durable malware-delivery techniques.\\n\\nSource: https://en.wikipedia.org/wiki/Anna_Kournikova_(computer_virus)
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000016@longo.org
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+RRULE:FREQ=YEARLY
+SUMMARY:Code Red (2001)
+DESCRIPTION:Code Red exploited a vulnerability in Microsoft IIS and infected hundreds of thousands of Internet-facing systems.\\n\\nWhy it still matters: Self-propagating attacks against exposed infrastructure can move faster than human remediation processes.\\n\\nSource: https://news.microsoft.com/source/2001/07/30/government-and-industry-groups-warn-code-red-internet-worm-ready-for-serious-strike-urge-preventative-measures/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000017@longo.org
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+RRULE:FREQ=YEARLY
+SUMMARY:Nimda (2001)
+DESCRIPTION:Nimda spread through email\, network shares\, compromised websites\, vulnerable IIS servers\, and earlier backdoors.\\n\\nWhy it still matters: It demonstrated the danger of combining multiple propagation vectors into one campaign.\\n\\nSource: https://seclists.org/cert/2001/22
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000019@longo.org
+DTSTART;VALUE=DATE:20260125
+DTEND;VALUE=DATE:20260126
+RRULE:FREQ=YEARLY
+SUMMARY:SQL Slammer (2003)
+DESCRIPTION:Slammer exploited a previously patched SQL Server flaw and caused a dramatic global traffic spike.\\n\\nWhy it still matters: It remains a classic example of how quickly a worm can weaponize a known vulnerability when patching lags.\\n\\nSource: https://news.microsoft.com/source/2003/01/25/microsoft-statement-on-the-slammer-worm-attack/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000020@longo.org
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+RRULE:FREQ=YEARLY
+SUMMARY:Blaster worm (2003)
+DESCRIPTION:Blaster exploited a previously patched Windows RPC vulnerability and scanned continuously for additional vulnerable hosts.\\n\\nWhy it still matters: It illustrates the persistent gap between patch availability and actual remediation.\\n\\nSource: https://learn.microsoft.com/en-us/troubleshoot/windows-server/security-and-malware/blaster-worm-virus-alert
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000021@longo.org
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+RRULE:FREQ=YEARLY
+SUMMARY:Sobig.F (2003)
+DESCRIPTION:Sobig.F spread through email at enormous scale and generated significant mail disruption.\\n\\nWhy it still matters: Mass-mailing malware showed how compromised endpoints could become infrastructure for large-scale abuse.\\n\\nSource: https://en.wikipedia.org/wiki/Sobig
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000022@longo.org
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+RRULE:FREQ=YEARLY
+SUMMARY:Mydoom (2004)
+DESCRIPTION:Mydoom spread through email and peer-to-peer networks\, opened a backdoor\, and launched denial-of-service activity.\\n\\nWhy it still matters: Compromised endpoints quickly became infrastructure for further attacks\, a pattern still seen in botnets.\\n\\nSource: https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Win32%2FMydoom
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000023@longo.org
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+RRULE:FREQ=YEARLY
+SUMMARY:Sasser (2004)
+DESCRIPTION:Sasser exploited the Windows LSASS vulnerability and could propagate without a user opening an attachment.\\n\\nWhy it still matters: It reinforced the risk of rapid exploitation following vulnerability disclosure.\\n\\nSource: https://news.microsoft.com/source/2004/05/02/microsoft-joins-law-enforcement-to-track-perpetrators-of-emerging-worm-attacks-against-computer-users/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000025@longo.org
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+RRULE:FREQ=YEARLY
+SUMMARY:Zotob worm (2005)
+DESCRIPTION:Zotob exploited a recently disclosed Windows Plug and Play vulnerability and disrupted corporate and media networks.\\n\\nWhy it still matters: It showed how quickly exploit code can follow a patch and why emergency vulnerability management matters.\\n\\nSource: https://en.wikipedia.org/wiki/Zotob
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000027@longo.org
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260118
+RRULE:FREQ=YEARLY
+SUMMARY:TJX breach disclosed (2007)
+DESCRIPTION:TJX disclosed unauthorized access affecting payment-card and customer data across its retail operations.\\n\\nWhy it still matters: The breach became an early large-scale example of wireless security\, card-data\, and third-party risk failures.\\n\\nSource: https://en.wikipedia.org/wiki/TJX_Companies
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000028@longo.org
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+RRULE:FREQ=YEARLY
+SUMMARY:Estonia cyberattacks begin (2007)
+DESCRIPTION:Estonian government\, banking\, media\, and other online services experienced sustained disruptive cyber activity amid political tensions.\\n\\nWhy it still matters: The attacks became a landmark case in national cyber defense\, resilience\, and geopolitical cyber disruption.\\n\\nSource: https://en.wikipedia.org/wiki/2007_cyberattacks_on_Estonia
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000029@longo.org
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+RRULE:FREQ=YEARLY
+SUMMARY:Kaminsky DNS flaw disclosed (2008)
+DESCRIPTION:Dan Kaminsky disclosed a fundamental DNS cache-poisoning weakness after a coordinated multi-vendor patch effort.\\n\\nWhy it still matters: The episode showed the systemic risk of flaws in core Internet infrastructure and the value of coordinated disclosure.\\n\\nSource: https://en.wikipedia.org/wiki/Dan_Kaminsky
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000030@longo.org
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+RRULE:FREQ=YEARLY
+SUMMARY:MS08-067 emergency patch (2008)
+DESCRIPTION:Microsoft issued an out-of-band critical update for a remotely exploitable Windows Server service vulnerability.\\n\\nWhy it still matters: The flaw was later exploited by Conficker and remains a classic emergency-patching case.\\n\\nSource: https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000031@longo.org
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+RRULE:FREQ=YEARLY
+SUMMARY:Conficker discovered (2008)
+DESCRIPTION:Conficker exploited the Windows Server service vulnerability addressed by MS08-067 and added multiple propagation techniques.\\n\\nWhy it still matters: It showed how unpatched systems\, weak credentials\, removable media\, and shares can combine into durable malware spread.\\n\\nSource: https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Win32%2FConficker
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000033@longo.org
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+RRULE:FREQ=YEARLY
+SUMMARY:U.S. and South Korea DDoS attacks (2009)
+DESCRIPTION:Government\, financial\, and media websites in the United States and South Korea were targeted by coordinated denial-of-service attacks.\\n\\nWhy it still matters: The campaign reinforced the use of botnets for politically significant disruption and the difficulty of attribution.\\n\\nSource: https://en.wikipedia.org/wiki/2009_cyberattacks_against_South_Korea_and_the_United_States
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000034@longo.org
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+RRULE:FREQ=YEARLY
+SUMMARY:Operation Aurora disclosed (2010)
+DESCRIPTION:Google disclosed a sophisticated targeted intrusion that stole intellectual property and affected numerous large companies.\\n\\nWhy it still matters: Aurora was a watershed moment in public corporate disclosure of nation-state activity.\\n\\nSource: https://googleblog.blogspot.com/2010/01/new-approach-to-china.html
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000035@longo.org
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+RRULE:FREQ=YEARLY
+SUMMARY:Stuxnet first identified (2010)
+DESCRIPTION:Security researchers identified malware later shown to target specific industrial-control environments.\\n\\nWhy it still matters: Its discovery marked a turning point in awareness of cyber weapons designed to manipulate physical processes.\\n\\nSource: https://en.wikipedia.org/wiki/Stuxnet
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000036@longo.org
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+RRULE:FREQ=YEARLY
+SUMMARY:ICS-CERT Stuxnet advisory (2010)
+DESCRIPTION:ICS-CERT documented Stuxnet targeting Siemens industrial-control software and using multiple advanced propagation techniques.\\n\\nWhy it still matters: Stuxnet permanently changed the conversation around cyber-physical risk.\\n\\nSource: https://www.cisa.gov/uscert/ics/advisories/ICSA-10-272-01
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000037@longo.org
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+RRULE:FREQ=YEARLY
+SUMMARY:RSA SecurID breach disclosed (2011)
+DESCRIPTION:RSA disclosed an advanced persistent threat and warned that information related to SecurID products had been extracted.\\n\\nWhy it still matters: Security controls with privileged trust relationships are strategic targets in their own right.\\n\\nSource: https://www.sec.gov/Archives/edgar/data/790070/000119312511070159/d8k.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000038@longo.org
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+RRULE:FREQ=YEARLY
+SUMMARY:Comodo certificate compromise (2011)
+DESCRIPTION:A certificate-authority reseller account was compromised and used to issue fraudulent certificates for major online services.\\n\\nWhy it still matters: Web trust depends on the operational security of certificate-issuance infrastructure\, not cryptography alone.\\n\\nSource: https://en.wikipedia.org/wiki/Comodo_Group#Certificate_hacking
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000039@longo.org
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+RRULE:FREQ=YEARLY
+SUMMARY:PlayStation Network breach disclosed (2011)
+DESCRIPTION:Sony disclosed a major compromise of PlayStation Network and Qriocity user data after taking services offline.\\n\\nWhy it still matters: The incident highlighted large-scale consumer identity exposure and the operational cost of prolonged outages.\\n\\nSource: https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000040@longo.org
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+RRULE:FREQ=YEARLY
+SUMMARY:DigiNotar fraudulent certificates exposed (2011)
+DESCRIPTION:Fraudulent certificates issued after compromise of DigiNotar were discovered\, ultimately destroying trust in the certificate authority.\\n\\nWhy it still matters: Compromise of one PKI trust anchor can create ecosystem-wide consequences.\\n\\nSource: https://en.wikipedia.org/wiki/DigiNotar
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000041@longo.org
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+RRULE:FREQ=YEARLY
+SUMMARY:Flame malware revealed (2012)
+DESCRIPTION:Researchers disclosed Flame\, a sophisticated espionage platform used primarily in the Middle East.\\n\\nWhy it still matters: Flame illustrated the growing complexity and modularity of state-aligned cyber espionage tooling.\\n\\nSource: https://en.wikipedia.org/wiki/Flame_(malware)
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000042@longo.org
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+RRULE:FREQ=YEARLY
+SUMMARY:LinkedIn password breach (2012)
+DESCRIPTION:Millions of hashed LinkedIn passwords were posted online following a breach.\\n\\nWhy it still matters: The incident reinforced the importance of strong password hashing\, unique credentials\, and resistance to credential reuse.\\n\\nSource: https://en.wikipedia.org/wiki/2012_LinkedIn_hack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000043@longo.org
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+RRULE:FREQ=YEARLY
+SUMMARY:Shamoon attacks Saudi Aramco (2012)
+DESCRIPTION:Shamoon was used in a destructive attack that wiped large numbers of Saudi Aramco workstations.\\n\\nWhy it still matters: The attack demonstrated the business impact of destructive malware and the importance of segmentation and recovery.\\n\\nSource: https://en.wikipedia.org/wiki/Shamoon
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000044@longo.org
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+RRULE:FREQ=YEARLY
+SUMMARY:Mandiant APT1 report (2013)
+DESCRIPTION:Mandiant published a detailed report linking a large cyber-espionage campaign to a unit of China's People's Liberation Army.\\n\\nWhy it still matters: The report helped normalize evidence-based public attribution of state-sponsored cyber operations.\\n\\nSource: https://en.wikipedia.org/wiki/PLA_Unit_61398
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000045@longo.org
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+RRULE:FREQ=YEARLY
+SUMMARY:DarkSeoul attacks (2013)
+DESCRIPTION:Cyberattacks disrupted major South Korean banks and broadcasters\, wiping systems and affecting operations.\\n\\nWhy it still matters: The incident showed how destructive malware can be used for national-level disruption.\\n\\nSource: https://en.wikipedia.org/wiki/2013_South_Korea_cyberattack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000046@longo.org
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+RRULE:FREQ=YEARLY
+SUMMARY:Adobe breach disclosed (2013)
+DESCRIPTION:Adobe disclosed an intrusion involving customer information and source code.\\n\\nWhy it still matters: The breach illustrated the value attackers place on both identity data and proprietary software source code.\\n\\nSource: https://en.wikipedia.org/wiki/Adobe_Inc.#Security_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000047@longo.org
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+RRULE:FREQ=YEARLY
+SUMMARY:Target breach announced (2013)
+DESCRIPTION:Target confirmed unauthorized access to payment-card data affecting tens of millions of accounts.\\n\\nWhy it still matters: The breach became a landmark example of third-party access risk\, point-of-sale compromise\, and executive accountability.\\n\\nSource: https://corporate.target.com/press/release/2013/12/target-confirms-unauthorized-access-to-payment-card-data-in-u-s-stores
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000048@longo.org
+DTSTART;VALUE=DATE:20260212
+DTEND;VALUE=DATE:20260213
+RRULE:FREQ=YEARLY
+SUMMARY:NIST Cybersecurity Framework 1.0 (2014)
+DESCRIPTION:NIST released the first Framework for Improving Critical Infrastructure Cybersecurity.\\n\\nWhy it still matters: The Framework created a common risk-based language for cybersecurity outcomes and executive communication.\\n\\nSource: https://www.nist.gov/news-events/news/2014/02/nist-releases-cybersecurity-framework-version-10
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000049@longo.org
+DTSTART;VALUE=DATE:20260407
+DTEND;VALUE=DATE:20260408
+RRULE:FREQ=YEARLY
+SUMMARY:Heartbleed (2014)
+DESCRIPTION:Heartbleed exposed a flaw in OpenSSL heartbeat handling that allowed remote attackers to read portions of process memory.\\n\\nWhy it still matters: It showed how one defect in a ubiquitous security library can create global risk and require key rotation beyond patching.\\n\\nSource: https://nvd.nist.gov/vuln/detail/CVE-2014-0160
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000050@longo.org
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+RRULE:FREQ=YEARLY
+SUMMARY:Home Depot breach disclosed (2014)
+DESCRIPTION:Home Depot disclosed a payment-card breach involving malware on point-of-sale systems.\\n\\nWhy it still matters: Retail breaches reinforced the need for segmentation\, payment-environment hardening\, and third-party access controls.\\n\\nSource: https://en.wikipedia.org/wiki/Home_Depot#Data_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000051@longo.org
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+RRULE:FREQ=YEARLY
+SUMMARY:Shellshock (2014)
+DESCRIPTION:Shellshock allowed arbitrary command execution through crafted environment variables processed by GNU Bash.\\n\\nWhy it still matters: It demonstrated the systemic risk created when foundational components are embedded across enormous software estates.\\n\\nSource: https://nvd.nist.gov/vuln/detail/CVE-2014-6271
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000052@longo.org
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+RRULE:FREQ=YEARLY
+SUMMARY:JPMorgan Chase breach disclosed (2014)
+DESCRIPTION:JPMorgan Chase disclosed a major intrusion affecting contact information associated with tens of millions of households and small businesses.\\n\\nWhy it still matters: The incident underscored the scale and attractiveness of identity data held by financial institutions.\\n\\nSource: https://en.wikipedia.org/wiki/2014_JPMorgan_Chase_data_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000053@longo.org
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+RRULE:FREQ=YEARLY
+SUMMARY:POODLE disclosed (2014)
+DESCRIPTION:Researchers disclosed a weakness in SSL 3.0 that could allow recovery of plaintext from encrypted connections.\\n\\nWhy it still matters: Legacy compatibility can preserve attack paths long after stronger replacements exist.\\n\\nSource: https://security.googleblog.com/2014/10/this-poodle-bites-exploiting-ssl-30.html
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000054@longo.org
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+RRULE:FREQ=YEARLY
+SUMMARY:Sony Pictures destructive attack (2014)
+DESCRIPTION:Sony Pictures suffered a destructive intrusion involving malware\, stolen data\, and major operational disruption.\\n\\nWhy it still matters: The attack showed how theft\, coercion\, public disclosure\, and destruction can be combined in one campaign.\\n\\nSource: https://www.fbi.gov/news/press-releases/update-on-sony-investigation
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000055@longo.org
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+RRULE:FREQ=YEARLY
+SUMMARY:Anthem breach disclosed (2015)
+DESCRIPTION:Anthem disclosed unauthorized access to a database containing information on current and former members and employees.\\n\\nWhy it still matters: Healthcare identity data has long-lived value and creates exposure that persists well beyond incident containment.\\n\\nSource: https://en.wikipedia.org/wiki/Anthem_medical_data_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000056@longo.org
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+RRULE:FREQ=YEARLY
+SUMMARY:OPM breach announced (2015)
+DESCRIPTION:The U.S. Office of Personnel Management disclosed a major incident affecting federal personnel and background-investigation data.\\n\\nWhy it still matters: The breach demonstrated the intelligence value of aggregated identity and personnel information.\\n\\nSource: https://www.opm.gov/frequently-asked-questions/cybersecurity-information-faq/cybersecurity-june-4-2015/where-can-i-find-information-on-the-recent-cybersecurity-incidents/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000057@longo.org
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+RRULE:FREQ=YEARLY
+SUMMARY:Hacking Team breach (2015)
+DESCRIPTION:Hacking Team's internal data and source code were leaked following a compromise.\\n\\nWhy it still matters: The breach exposed the commercial offensive-security ecosystem and fueled debate over zero-day markets and surveillance technology.\\n\\nSource: https://en.wikipedia.org/wiki/Hacking_Team
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000058@longo.org
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+RRULE:FREQ=YEARLY
+SUMMARY:Ashley Madison breach disclosed (2015)
+DESCRIPTION:Attackers disclosed a compromise of Ashley Madison and later released stolen user data.\\n\\nWhy it still matters: The incident highlighted the personal\, legal\, and reputational consequences of breaches involving highly sensitive behavioral data.\\n\\nSource: https://en.wikipedia.org/wiki/Ashley_Madison_data_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000059@longo.org
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+RRULE:FREQ=YEARLY
+SUMMARY:Ukraine power grid cyberattack (2015)
+DESCRIPTION:A coordinated cyber operation disrupted electricity distribution in Ukraine through enterprise compromise and control-system access.\\n\\nWhy it still matters: It became one of the defining examples of cyber operations causing real-world critical-infrastructure disruption.\\n\\nSource: https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000060@longo.org
+DTSTART;VALUE=DATE:20260204
+DTEND;VALUE=DATE:20260205
+RRULE:FREQ=YEARLY
+SUMMARY:Bangladesh Bank cyber heist (2016)
+DESCRIPTION:Attackers used compromised systems and fraudulent SWIFT messages in an attempt to steal nearly $1 billion from Bangladesh Bank.\\n\\nWhy it still matters: The heist showed how cyber compromise can manipulate trusted financial messaging and payment processes.\\n\\nSource: https://en.wikipedia.org/wiki/Bangladesh_Bank_robbery
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000061@longo.org
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+RRULE:FREQ=YEARLY
+SUMMARY:Hollywood Presbyterian ransomware payment (2016)
+DESCRIPTION:A hospital paid ransom after ransomware disrupted access to systems and records.\\n\\nWhy it still matters: Healthcare became one of the earliest sectors to show how ransomware could affect service delivery and patient-care operations.\\n\\nSource: https://en.wikipedia.org/wiki/Hollywood_Presbyterian_Medical_Center_ransomware_attack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000062@longo.org
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+RRULE:FREQ=YEARLY
+SUMMARY:DNC intrusion disclosed (2016)
+DESCRIPTION:The Democratic National Committee disclosed a network compromise attributed by investigators to Russian intelligence-linked groups.\\n\\nWhy it still matters: The incident became a landmark example of cyber-enabled information operations intersecting with political processes.\\n\\nSource: https://en.wikipedia.org/wiki/Democratic_National_Committee_cyber_attacks
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000063@longo.org
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+RRULE:FREQ=YEARLY
+SUMMARY:Shadow Brokers leaks begin (2016)
+DESCRIPTION:The Shadow Brokers published tools and exploits allegedly associated with the Equation Group.\\n\\nWhy it still matters: Leakage of high-end offensive tooling can rapidly convert state-developed capabilities into broad criminal attack risk.\\n\\nSource: https://en.wikipedia.org/wiki/The_Shadow_Brokers
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000064@longo.org
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+RRULE:FREQ=YEARLY
+SUMMARY:Mirai / Dyn DDoS attack (2016)
+DESCRIPTION:A massive DDoS attack targeted DNS provider Dyn using the Mirai botnet\, disrupting access to major online services.\\n\\nWhy it still matters: The attack made insecure IoT devices part of the global threat model and highlighted DNS as critical shared infrastructure.\\n\\nSource: https://en.wikipedia.org/wiki/2016_Dyn_cyberattack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000065@longo.org
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+RRULE:FREQ=YEARLY
+SUMMARY:Cloudbleed (2017)
+DESCRIPTION:Cloudflare disclosed a memory-leak bug that could expose sensitive data from customer websites.\\n\\nWhy it still matters: Shared cloud and edge infrastructure bugs can create cross-tenant confidentiality risk.\\n\\nSource: https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000066@longo.org
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+RRULE:FREQ=YEARLY
+SUMMARY:NYDFS Cybersecurity Regulation (2017)
+DESCRIPTION:New York's cybersecurity regulation took effect for covered financial institutions.\\n\\nWhy it still matters: The rule helped normalize executive accountability\, risk assessment\, incident reporting\, and program governance in financial services.\\n\\nSource: https://www.dfs.ny.gov/industry_guidance/cybersecurity
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000067@longo.org
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+RRULE:FREQ=YEARLY
+SUMMARY:MS17-010 released (2017)
+DESCRIPTION:Microsoft fixed critical SMBv1 vulnerabilities including the flaw later associated with EternalBlue.\\n\\nWhy it still matters: Organizations had nearly two months to patch before WannaCry weaponized the flaw at global scale.\\n\\nSource: https://learn.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000068@longo.org
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+RRULE:FREQ=YEARLY
+SUMMARY:EternalBlue exploit released publicly (2017)
+DESCRIPTION:The Shadow Brokers released offensive tooling including EternalBlue.\\n\\nWhy it still matters: Public release of weaponized exploit code dramatically shortened the path from vulnerability to widespread criminal use.\\n\\nSource: https://en.wikipedia.org/wiki/EternalBlue
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000069@longo.org
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+RRULE:FREQ=YEARLY
+SUMMARY:WannaCry (2017)
+DESCRIPTION:WannaCry spread globally by exploiting an SMB vulnerability Microsoft had patched two months earlier.\\n\\nWhy it still matters: It remains a defining example of the cost of delayed patching\, unsupported systems\, and flat networks.\\n\\nSource: https://www.microsoft.com/en-us/security/blog/2017/05/12/wannacrypt-ransomware-worm-targets-out-of-date-systems/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000070@longo.org
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+RRULE:FREQ=YEARLY
+SUMMARY:NotPetya (2017)
+DESCRIPTION:NotPetya spread from compromised Ukrainian software into organizations around the world and functioned primarily as destructive malware.\\n\\nWhy it still matters: It remains a textbook example of a targeted supply-chain compromise creating enormous unintended blast radius.\\n\\nSource: https://www.microsoft.com/en-us/security/blog/2017/06/27/new-ransomware-old-techniques-Petya-adds-worm-capabilities/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000071@longo.org
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+RRULE:FREQ=YEARLY
+SUMMARY:Equifax breach announced (2017)
+DESCRIPTION:Equifax disclosed a major incident involving highly sensitive consumer identity data.\\n\\nWhy it still matters: It became a defining case for vulnerability management\, data concentration\, executive accountability\, and identity risk.\\n\\nSource: https://investor.equifax.com/news-events/press-releases/detail/240/equifax-announces-cybersecurity-incident-involving-consumer
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000072@longo.org
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+RRULE:FREQ=YEARLY
+SUMMARY:KRACK disclosed (2017)
+DESCRIPTION:Researchers disclosed key reinstallation attacks against WPA2.\\n\\nWhy it still matters: Even mature\, ubiquitous security protocols can fail through subtle state-machine and implementation flaws.\\n\\nSource: https://en.wikipedia.org/wiki/KRACK
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000073@longo.org
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+RRULE:FREQ=YEARLY
+SUMMARY:Uber breach disclosed (2017)
+DESCRIPTION:Uber disclosed a 2016 breach involving personal data for millions of riders and drivers and acknowledged paying the attackers.\\n\\nWhy it still matters: The incident became a governance case study in breach disclosure\, extortion\, and executive accountability.\\n\\nSource: https://en.wikipedia.org/wiki/Uber#Data_breaches
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000074@longo.org
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+RRULE:FREQ=YEARLY
+SUMMARY:Meltdown and Spectre (2018)
+DESCRIPTION:Researchers disclosed speculative-execution attacks affecting modern processors.\\n\\nWhy it still matters: The flaws showed that security failures can exist below the operating system and require coordinated hardware and software fixes.\\n\\nSource: https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/answering-your-questions-about-meltdown-and-spectre/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000075@longo.org
+DTSTART;VALUE=DATE:20260227
+DTEND;VALUE=DATE:20260228
+RRULE:FREQ=YEARLY
+SUMMARY:GitHub 1.35 Tbps DDoS (2018)
+DESCRIPTION:GitHub experienced a record-setting DDoS attack amplified through exposed memcached servers.\\n\\nWhy it still matters: Misconfigured Internet infrastructure can be weaponized for enormous amplification attacks.\\n\\nSource: https://github.blog/news-insights/company-news/ddos-incident-report/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000076@longo.org
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260318
+RRULE:FREQ=YEARLY
+SUMMARY:Cambridge Analytica scandal breaks widely (2018)
+DESCRIPTION:Reporting revealed large-scale harvesting and political use of Facebook user data through a third-party app ecosystem.\\n\\nWhy it still matters: The scandal accelerated scrutiny of platform data governance\, consent\, third-party access\, and privacy accountability.\\n\\nSource: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000077@longo.org
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+RRULE:FREQ=YEARLY
+SUMMARY:GDPR becomes applicable (2018)
+DESCRIPTION:The EU General Data Protection Regulation became applicable across member states.\\n\\nWhy it still matters: GDPR materially changed the global privacy landscape and made data governance\, security\, and privacy inseparable executive concerns.\\n\\nSource: https://eur-lex.europa.eu/content/news/general-data-protection-regulation-GDPR-applies-from-25-May-2018.html
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000078@longo.org
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+RRULE:FREQ=YEARLY
+SUMMARY:CCPA signed (2018)
+DESCRIPTION:California enacted the Consumer Privacy Act\, creating new rights around access\, deletion\, disclosure\, and sale of personal information.\\n\\nWhy it still matters: CCPA helped establish a U.S. state-level privacy model that influenced subsequent legislation.\\n\\nSource: https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000079@longo.org
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+RRULE:FREQ=YEARLY
+SUMMARY:SingHealth breach disclosed (2018)
+DESCRIPTION:Singapore disclosed theft of personal data belonging to about 1.5 million SingHealth patients.\\n\\nWhy it still matters: Healthcare data has long-term intelligence and identity-abuse value\, not merely immediate financial value.\\n\\nSource: https://www.moh.gov.sg/newsroom/singhealth%27s-it-system-target-of-cyberattack/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000080@longo.org
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+RRULE:FREQ=YEARLY
+SUMMARY:CISA established (2018)
+DESCRIPTION:The Cybersecurity and Infrastructure Security Agency Act formally established CISA.\\n\\nWhy it still matters: CISA became the central U.S. civilian agency for cyber defense\, critical-infrastructure security\, and vulnerability coordination.\\n\\nSource: https://www.cisa.gov/news-events/alerts/2018/11/19/cybersecurity-and-infrastructure-security-agency
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000081@longo.org
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+RRULE:FREQ=YEARLY
+SUMMARY:Marriott / Starwood breach disclosed (2018)
+DESCRIPTION:Marriott announced unauthorized access to the Starwood reservation database involving a large volume of guest data.\\n\\nWhy it still matters: The incident highlighted acquisition due diligence\, inherited technology risk\, data retention\, and long attacker dwell time.\\n\\nSource: https://en.wikipedia.org/wiki/Marriott_International_data_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000082@longo.org
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+RRULE:FREQ=YEARLY
+SUMMARY:Norsk Hydro ransomware attack (2019)
+DESCRIPTION:Norsk Hydro suffered a ransomware attack that disrupted global operations and forced substantial manual processing.\\n\\nWhy it still matters: Its response became a widely cited example of transparent crisis communication and resilience.\\n\\nSource: https://en.wikipedia.org/wiki/Norsk_Hydro_ransomware_attack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000083@longo.org
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+RRULE:FREQ=YEARLY
+SUMMARY:Baltimore ransomware attack (2019)
+DESCRIPTION:Baltimore city systems were disrupted by ransomware\, affecting email\, property transactions\, billing\, and municipal services.\\n\\nWhy it still matters: Ransomware can become a public-service continuity problem\, not merely an IT outage.\\n\\nSource: https://en.wikipedia.org/wiki/2019_Baltimore_ransomware_attack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000084@longo.org
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+RRULE:FREQ=YEARLY
+SUMMARY:BlueKeep (2019)
+DESCRIPTION:Microsoft released fixes for a pre-authentication remote-code-execution vulnerability in Remote Desktop Services and warned it was wormable.\\n\\nWhy it still matters: BlueKeep reinforced the danger of exposed remote administration and end-of-life systems.\\n\\nSource: https://www.microsoft.com/en-us/msrc/blog/2019/05/prevent-a-worm-by-updating-remote-desktop-services-cve-2019-0708
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000085@longo.org
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+RRULE:FREQ=YEARLY
+SUMMARY:Capital One breach announced (2019)
+DESCRIPTION:Capital One disclosed unauthorized access to personal information associated with credit-card applications and customers.\\n\\nWhy it still matters: The breach became a cloud-security case study in configuration\, identity\, metadata services\, and least privilege.\\n\\nSource: https://www.capitalone.com/about/newsroom/capital-one-announces-data-security-incident/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000086@longo.org
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+RRULE:FREQ=YEARLY
+SUMMARY:Windows 7 end of support (2020)
+DESCRIPTION:Microsoft ended routine support for Windows 7.\\n\\nWhy it still matters: End-of-life operating systems become long-term security liabilities when organizations cannot retire or isolate them.\\n\\nSource: https://support.microsoft.com/en-us/windows/windows-7-support-ended-on-january-14-2020-b75dcd83-19f2-b6e3-2d1f-3f15a4f6f7f9
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000087@longo.org
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+RRULE:FREQ=YEARLY
+SUMMARY:Twitter account takeover (2020)
+DESCRIPTION:Attackers compromised internal tools and took over numerous high-profile Twitter accounts to promote a cryptocurrency scam.\\n\\nWhy it still matters: Privileged support workflows can bypass strong user-facing security controls.\\n\\nSource: https://en.wikipedia.org/wiki/2020_Twitter_account_hijacking
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000088@longo.org
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+RRULE:FREQ=YEARLY
+SUMMARY:Garmin ransomware outage (2020)
+DESCRIPTION:Garmin experienced a major outage affecting online services\, support\, and connected-device synchronization following ransomware.\\n\\nWhy it still matters: Ransomware can disrupt both enterprise operations and customer-facing connected services.\\n\\nSource: https://en.wikipedia.org/wiki/Garmin#2020_outage
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000089@longo.org
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+RRULE:FREQ=YEARLY
+SUMMARY:Düsseldorf hospital ransomware incident (2020)
+DESCRIPTION:A ransomware incident disrupted systems at a German hospital and was associated with diversion of an emergency patient.\\n\\nWhy it still matters: Cyber incidents in healthcare can create real-world safety consequences.\\n\\nSource: https://en.wikipedia.org/wiki/2020_D%C3%BCsseldorf_University_Hospital_cyberattack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000090@longo.org
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+RRULE:FREQ=YEARLY
+SUMMARY:FireEye breach disclosed (2020)
+DESCRIPTION:FireEye disclosed that a sophisticated actor stole proprietary Red Team assessment tools.\\n\\nWhy it still matters: The incident showed the value attackers place on security tooling and the need for rapid public defensive action after compromise.\\n\\nSource: https://www.mandiant.com/resources/blog/unauthorized-access-of-fireeye-red-team-tools
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000091@longo.org
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+RRULE:FREQ=YEARLY
+SUMMARY:SolarWinds Orion compromise (2020)
+DESCRIPTION:CISA warned of active exploitation involving compromised SolarWinds Orion releases delivered through trusted updates.\\n\\nWhy it still matters: SolarWinds changed how boards and security teams think about software supply chains and privileged management platforms.\\n\\nSource: https://www.cisa.gov/news-events/alerts/2020/12/13/active-exploitation-solarwinds-software
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000092@longo.org
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260303
+RRULE:FREQ=YEARLY
+SUMMARY:HAFNIUM / Exchange zero-days (2021)
+DESCRIPTION:Microsoft disclosed active exploitation of previously unknown Exchange Server vulnerabilities by a China-based threat actor it called HAFNIUM.\\n\\nWhy it still matters: Internet-facing messaging infrastructure became a direct path into enterprise networks.\\n\\nSource: https://blogs.microsoft.com/on-the-issues/2021/03/02/new-nation-state-cyberattacks/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000093@longo.org
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+RRULE:FREQ=YEARLY
+SUMMARY:Colonial Pipeline ransomware (2021)
+DESCRIPTION:Colonial Pipeline experienced a network disruption that led to shutdown of pipeline operations\; the FBI later confirmed DarkSide ransomware.\\n\\nWhy it still matters: A business-system compromise can create physical-world consequences when operations are shut down for safety or containment.\\n\\nSource: https://www.fbi.gov/news/press-releases/fbi-statement-on-network-disruption-at-colonial-pipeline
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000094@longo.org
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+RRULE:FREQ=YEARLY
+SUMMARY:JBS ransomware attack (2021)
+DESCRIPTION:JBS experienced a ransomware attack that disrupted meat-processing operations in multiple countries.\\n\\nWhy it still matters: Ransomware against concentrated suppliers can create broader economic and supply-chain risk.\\n\\nSource: https://en.wikipedia.org/wiki/JBS_S.A.#Cyberattack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000095@longo.org
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+RRULE:FREQ=YEARLY
+SUMMARY:PrintNightmare (2021)
+DESCRIPTION:Critical Windows Print Spooler vulnerabilities and public exploit code drew widespread attention.\\n\\nWhy it still matters: Legacy services can create high-impact enterprise attack paths\, and disclosure confusion can complicate remediation.\\n\\nSource: https://en.wikipedia.org/wiki/PrintNightmare
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000096@longo.org
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+RRULE:FREQ=YEARLY
+SUMMARY:Kaseya VSA ransomware attack (2021)
+DESCRIPTION:A ransomware campaign exploited Kaseya VSA and affected managed service providers and downstream customers.\\n\\nWhy it still matters: Management platforms offer attackers enormous leverage because one compromise can cascade into many customers.\\n\\nSource: https://content.govdelivery.com/accounts/USDHSCISA/bulletins/2e6a462
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000097@longo.org
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+RRULE:FREQ=YEARLY
+SUMMARY:CISA Known Exploited Vulnerabilities catalog (2021)
+DESCRIPTION:CISA issued BOD 22-01 and operationalized the Known Exploited Vulnerabilities catalog for federal remediation prioritization.\\n\\nWhy it still matters: It helped shift vulnerability management toward exploitation evidence and real-world risk rather than severity scores alone.\\n\\nSource: https://www.cisa.gov/news-events/directives
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000098@longo.org
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+RRULE:FREQ=YEARLY
+SUMMARY:Log4Shell (2021)
+DESCRIPTION:Log4Shell exposed remote-code-execution risk in widely deployed Apache Log4j versions through JNDI lookup behavior.\\n\\nWhy it still matters: It showed how hidden software dependencies can become enterprise-wide security emergencies.\\n\\nSource: https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000099@longo.org
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+RRULE:FREQ=YEARLY
+SUMMARY:WhisperGate destructive malware (2022)
+DESCRIPTION:Microsoft described destructive malware targeting Ukrainian organizations and masquerading as ransomware.\\n\\nWhy it still matters: The campaign foreshadowed use of cyber operations alongside escalating geopolitical conflict.\\n\\nSource: https://www.microsoft.com/en-us/security/blog/2022/01/15/destructive-malware-targeting-ukrainian-organizations/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000100@longo.org
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+RRULE:FREQ=YEARLY
+SUMMARY:HermeticWiper attacks (2022)
+DESCRIPTION:Destructive wiper malware was deployed against Ukrainian organizations immediately before Russia's full-scale invasion.\\n\\nWhy it still matters: The campaign showed how destructive cyber operations can be integrated into broader military conflict.\\n\\nSource: https://en.wikipedia.org/wiki/2022_Ukraine_cyberattacks
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000101@longo.org
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+RRULE:FREQ=YEARLY
+SUMMARY:Okta / LAPSUS$ incident disclosed (2022)
+DESCRIPTION:Okta disclosed details around a third-party support engineer compromise after LAPSUS$ published screenshots suggesting access.\\n\\nWhy it still matters: The incident highlighted identity-provider concentration and privileged third-party support risk.\\n\\nSource: https://en.wikipedia.org/wiki/Lapsus$
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000102@longo.org
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+RRULE:FREQ=YEARLY
+SUMMARY:Spring4Shell (2022)
+DESCRIPTION:A critical Spring Framework vulnerability could enable unauthenticated remote code execution under affected configurations.\\n\\nWhy it still matters: It reinforced the challenge of rapidly understanding application-framework exposure across large software estates.\\n\\nSource: https://cert.europa.eu/publications/security-advisories/2022-023/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000103@longo.org
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+RRULE:FREQ=YEARLY
+SUMMARY:Costa Rica ransomware crisis (2022)
+DESCRIPTION:Conti ransomware attacks disrupted multiple Costa Rican government agencies and public services.\\n\\nWhy it still matters: The crisis showed ransomware reaching a level where a national government declared an emergency.\\n\\nSource: https://en.wikipedia.org/wiki/2022_Costa_Rican_ransomware_attack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000104@longo.org
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+RRULE:FREQ=YEARLY
+SUMMARY:LastPass development-environment breach (2022)
+DESCRIPTION:LastPass disclosed unauthorized access to portions of its development environment through a compromised developer account.\\n\\nWhy it still matters: Technical information and developer access can become building blocks for follow-on compromise.\\n\\nSource: https://blog.lastpass.com/posts/notice-of-security-incident
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000105@longo.org
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+RRULE:FREQ=YEARLY
+SUMMARY:Uber intrusion (2022)
+DESCRIPTION:Uber disclosed a security incident after an attacker gained broad internal access using social engineering and compromised credentials.\\n\\nWhy it still matters: The incident reinforced the importance of phishing-resistant authentication and privileged-access segmentation.\\n\\nSource: https://en.wikipedia.org/wiki/Uber#2022_security_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000106@longo.org
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+RRULE:FREQ=YEARLY
+SUMMARY:Optus breach (2022)
+DESCRIPTION:Australian telecom provider Optus disclosed a major breach involving customer identity information.\\n\\nWhy it still matters: Telecommunications providers are high-value targets because they combine identity\, account\, device\, and communications data.\\n\\nSource: https://en.wikipedia.org/wiki/2022_Optus_data_breach
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000107@longo.org
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+RRULE:FREQ=YEARLY
+SUMMARY:Medibank cyber incident (2022)
+DESCRIPTION:Australian health insurer Medibank disclosed an incident that later involved theft and publication of highly sensitive customer data.\\n\\nWhy it still matters: Health and claims data can create extreme privacy harm when stolen and used for extortion.\\n\\nSource: https://en.wikipedia.org/wiki/2022_Medibank_cyberattack
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000108@longo.org
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+RRULE:FREQ=YEARLY
+SUMMARY:OpenSSL CVE-2022-3602 / 3786 (2022)
+DESCRIPTION:OpenSSL released fixes for certificate-parsing vulnerabilities that drew broad attention because of the library's ubiquity.\\n\\nWhy it still matters: The episode reinforced the need for rapid dependency inventory when shared libraries are affected.\\n\\nSource: https://www.openssl.org/news/secadv/20221101.txt
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000109@longo.org
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260112
+RRULE:FREQ=YEARLY
+SUMMARY:Royal Mail ransomware incident (2023)
+DESCRIPTION:A ransomware incident disrupted Royal Mail's international export services.\\n\\nWhy it still matters: Ransomware against logistics and postal systems can interrupt physical commerce and supply chains.\\n\\nSource: https://en.wikipedia.org/wiki/Royal_Mail#2023_cyber_incident
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000110@longo.org
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+RRULE:FREQ=YEARLY
+SUMMARY:ESXiArgs campaign (2023)
+DESCRIPTION:Widespread ransomware exploitation targeted Internet-exposed VMware ESXi systems.\\n\\nWhy it still matters: Exposed virtualization infrastructure creates difficult recovery scenarios when hypervisors themselves are encrypted.\\n\\nSource: https://www.cisa.gov/news-events/alerts/2023/02/09/cisa-and-fbi-release-esxiargs-ransomware-recovery-guidance
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000111@longo.org
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+RRULE:FREQ=YEARLY
+SUMMARY:3CX supply-chain compromise (2023)
+DESCRIPTION:A trojanized 3CX desktop application was used in a supply-chain attack affecting downstream customers.\\n\\nWhy it still matters: Trusted signed software can become an attack-delivery channel when development or build environments are compromised.\\n\\nSource: https://www.cisa.gov/news-events/alerts/2023/03/30/supply-chain-attack-against-3cxdesktopapp
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000112@longo.org
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY
+SUMMARY:MOVEit zero-day disclosed (2023)
+DESCRIPTION:Progress Software released patches for a critical MOVEit Transfer vulnerability after signs of active exploitation.\\n\\nWhy it still matters: One widely used file-transfer product created cascading third-party data exposure across many organizations.\\n\\nSource: https://www.sec.gov/Archives/edgar/data/876167/000087616723000113/prgs-20230530.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000113@longo.org
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+RRULE:FREQ=YEARLY
+SUMMARY:SEC cybersecurity disclosure rules (2023)
+DESCRIPTION:The SEC adopted rules requiring public companies to disclose material cyber incidents and annual information about risk management and governance.\\n\\nWhy it still matters: Cybersecurity materiality and governance became explicit securities-law concerns for public companies.\\n\\nSource: https://www.sec.gov/newsroom/press-releases/2023-139
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000114@longo.org
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+RRULE:FREQ=YEARLY
+SUMMARY:MGM Resorts cyber incident (2023)
+DESCRIPTION:MGM Resorts disclosed a cybersecurity issue affecting U.S. systems and significant property operations.\\n\\nWhy it still matters: The event showed how identity compromise and containment can rapidly become visible business-operations problems.\\n\\nSource: https://www.sec.gov/Archives/edgar/data/789570/000119312523233855/d502352dex991.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000116@longo.org
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+RRULE:FREQ=YEARLY
+SUMMARY:Citrix Bleed (2023)
+DESCRIPTION:Citrix released updates for a NetScaler vulnerability later associated with session-token theft and session hijacking.\\n\\nWhy it still matters: Patching alone may not terminate attacker access obtained before remediation\; session invalidation can also be required.\\n\\nSource: https://www.cisa.gov/guidance-addressing-citrix-netscaler-adc-and-gateway-vulnerability-cve-2023-4966-citrix-bleed
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000117@longo.org
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+RRULE:FREQ=YEARLY
+SUMMARY:Okta support-system breach (2023)
+DESCRIPTION:Okta disclosed unauthorized access to its customer support case-management system using a stolen credential.\\n\\nWhy it still matters: Identity providers sit at a uniquely sensitive trust boundary\, including supporting systems and uploaded troubleshooting artifacts.\\n\\nSource: https://sec.okta.com/articles/2023/10/tracking-unauthorized-access-oktas-support-system/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000118@longo.org
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+RRULE:FREQ=YEARLY
+SUMMARY:SEC charges SolarWinds and CISO (2023)
+DESCRIPTION:The SEC filed civil charges against SolarWinds and its CISO alleging fraud and internal-control failures related to cybersecurity disclosures.\\n\\nWhy it still matters: The case intensified scrutiny of executive cybersecurity statements\, disclosure controls\, and personal accountability.\\n\\nSource: https://www.sec.gov/newsroom/press-releases/2023-227
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000119@longo.org
+DTSTART;VALUE=DATE:20260110
+DTEND;VALUE=DATE:20260111
+RRULE:FREQ=YEARLY
+SUMMARY:Ivanti Connect Secure zero-days (2024)
+DESCRIPTION:Ivanti disclosed critical vulnerabilities affecting Connect Secure and Policy Secure appliances that were being exploited.\\n\\nWhy it still matters: Internet-facing security appliances are prime initial-access targets and require rapid patching plus compromise assessment.\\n\\nSource: https://en.wikipedia.org/wiki/Ivanti
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000120@longo.org
+DTSTART;VALUE=DATE:20260221
+DTEND;VALUE=DATE:20260222
+RRULE:FREQ=YEARLY
+SUMMARY:Change Healthcare cyberattack (2024)
+DESCRIPTION:UnitedHealth disclosed a cyberattack affecting Change Healthcare and disrupting claims\, payments\, pharmacy\, and healthcare transactions.\\n\\nWhy it still matters: Concentration in a critical third-party platform can turn one compromise into a sector-wide operational problem.\\n\\nSource: https://www.sec.gov/Archives/edgar/data/731766/000073176624000045/unh-20240221.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000121@longo.org
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+RRULE:FREQ=YEARLY
+SUMMARY:NIST Cybersecurity Framework 2.0 (2024)
+DESCRIPTION:NIST released CSF 2.0\, expanding applicability and adding the Govern function.\\n\\nWhy it still matters: It formalized cybersecurity as an enterprise governance responsibility\, not merely a technical function.\\n\\nSource: https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000122@longo.org
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+RRULE:FREQ=YEARLY
+SUMMARY:XZ Utils backdoor (2024)
+DESCRIPTION:A sophisticated backdoor was discovered in XZ Utils 5.6.0 and 5.6.1 after malicious code entered upstream release tarballs.\\n\\nWhy it still matters: Patient compromise of an open-source project can create risk far beyond the original repository.\\n\\nSource: https://www.cisa.gov/news-events/alerts/2024/03/29/reported-supply-chain-compromise-affecting-xz-utils-data-compression-library-cve-2024-3094
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000123@longo.org
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+RRULE:FREQ=YEARLY
+SUMMARY:PAN-OS CVE-2024-3400 disclosed (2024)
+DESCRIPTION:Palo Alto Networks disclosed a critical command-injection vulnerability affecting GlobalProtect on certain PAN-OS configurations.\\n\\nWhy it still matters: Security perimeter devices can become privileged attack paths when Internet-facing components are exploitable.\\n\\nSource: https://nvd.nist.gov/vuln/detail/CVE-2024-3400
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000125@longo.org
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+RRULE:FREQ=YEARLY
+SUMMARY:Live Nation / Ticketmaster cloud incident (2024)
+DESCRIPTION:Live Nation disclosed unauthorized activity in a third-party cloud database environment containing company data including Ticketmaster information.\\n\\nWhy it still matters: The incident highlighted third-party cloud concentration and the use of stolen credentials against SaaS and data platforms.\\n\\nSource: https://www.sec.gov/Archives/edgar/data/1335258/000133525824000081/lyv-20240531.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000126@longo.org
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+RRULE:FREQ=YEARLY
+SUMMARY:Polyfill.io compromise (2024)
+DESCRIPTION:Cloudflare reported that the popular polyfill.io JavaScript service could no longer be trusted after malicious code injection.\\n\\nWhy it still matters: Externally hosted client-side dependencies can silently become supply-chain channels into huge numbers of websites.\\n\\nSource: https://blog.cloudflare.com/automatically-replacing-polyfill-io-links-with-cloudflares-mirror-for-a-safer-internet/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000127@longo.org
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+RRULE:FREQ=YEARLY
+SUMMARY:regreSSHion (2024)
+DESCRIPTION:Qualys disclosed an unauthenticated remote-code-execution vulnerability in OpenSSH server on affected glibc-based Linux systems.\\n\\nWhy it still matters: Fixed vulnerabilities can return through code changes\; regression testing matters even for mature infrastructure software.\\n\\nSource: https://www.qualys.com/regresshion-cve-2024-6387
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000128@longo.org
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+RRULE:FREQ=YEARLY
+SUMMARY:CrowdStrike Channel File 291 outage (2024)
+DESCRIPTION:A CrowdStrike content configuration update triggered Windows system crashes at global scale\; CrowdStrike said it was not a cyberattack.\\n\\nWhy it still matters: The outage demonstrated concentration risk in security tooling and the importance of staged deployment\, rollback\, validation\, and resilience.\\n\\nSource: https://www.crowdstrike.com/en-us/blog/falcon-content-update-preliminary-post-incident-report/
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000129@longo.org
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+RRULE:FREQ=YEARLY
+SUMMARY:EU AI Act enters into force (2024)
+DESCRIPTION:The European Union's AI Act entered into force\, establishing a risk-based legal framework for artificial intelligence systems.\\n\\nWhy it still matters: AI governance became a formal compliance discipline increasingly intersecting with cybersecurity\, privacy\, and digital trust.\\n\\nSource: https://commission.europa.eu/news-and-media/news/ai-act-enters-force-2024-08-01_en
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000131@longo.org
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+RRULE:FREQ=YEARLY
+SUMMARY:NIS2 transposition deadline (2024)
+DESCRIPTION:EU member states reached the deadline for transposing the NIS2 Directive into national law.\\n\\nWhy it still matters: NIS2 raised expectations for governance\, supply-chain security\, incident reporting\, and executive accountability.\\n\\nSource: https://en.wikipedia.org/wiki/NIS2_Directive
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000132@longo.org
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+RRULE:FREQ=YEARLY
+SUMMARY:EU Cyber Resilience Act enters into force (2024)
+DESCRIPTION:The Cyber Resilience Act entered into force\, establishing cybersecurity requirements for products with digital elements.\\n\\nWhy it still matters: It moves software and hardware security toward lifecycle duty of care\, secure-by-design expectations\, and manufacturer accountability.\\n\\nSource: https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act
+END:VEVENT
+BEGIN:VEVENT
+UID:CH-000133@longo.org
+DTSTART;VALUE=DATE:20260107
+DTEND;VALUE=DATE:20260108
+RRULE:FREQ=YEARLY
+SUMMARY:PowerSchool breach publicly reported (2025)
+DESCRIPTION:PowerSchool disclosed unauthorized access to its student information system environment and data belonging to school districts.\\n\\nWhy it still matters: Concentrated education platforms hold sensitive data on students\, parents\, and staff and create broad downstream exposure when compromised.\\n\\nSource: https://en.wikipedia.org/wiki/PowerSchool
+END:VEVENT
+END:VCALENDAR
